@@ -82,8 +82,8 @@ public class BackgroundDetectService extends Service implements View.OnClickList
     private void showWindow(){
         windowManager = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
         WindowManager.LayoutParams params = new WindowManager.LayoutParams();
-        params.width = ViewGroup.LayoutParams.MATCH_PARENT;
-        params.height = ViewGroup.LayoutParams.MATCH_PARENT;
+        params.width = WindowManager.LayoutParams.MATCH_PARENT;
+        params.height = WindowManager.LayoutParams.MATCH_PARENT;
         params.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL;
         params.type = WindowManager.LayoutParams.TYPE_TOAST;
         params.format = PixelFormat.TRANSPARENT;
