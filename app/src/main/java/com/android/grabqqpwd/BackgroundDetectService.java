@@ -85,7 +85,7 @@ public class BackgroundDetectService extends Service implements View.OnClickList
         params.width = ViewGroup.LayoutParams.MATCH_PARENT;
         params.height = ViewGroup.LayoutParams.MATCH_PARENT;
         params.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL;
-        params.type = WindowManager.LayoutParams.TYPE_SYSTEM_ERROR;
+        params.type = WindowManager.LayoutParams.TYPE_TOAST;
         params.format = PixelFormat.TRANSPARENT;
         params.gravity = Gravity.CENTER;
         params.softInputMode = WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN;
