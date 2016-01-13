@@ -24,6 +24,9 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
+import com.jaredrummler.android.processes.ProcessManager;
+import com.jaredrummler.android.processes.models.AndroidAppProcess;
+
 import java.lang.reflect.Field;
 import java.util.List;
 
@@ -61,14 +64,22 @@ public class BackgroundDetectService extends Service implements View.OnClickList
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-                    List<ActivityManager.RunningAppProcessInfo> list = activityManager.getRunningAppProcesses();
-                    if (list.get(0).processName.equals("com.tencent.mobileqq")){
+                    if (isAppForground("com.tencent.mobileqq")){
                         myHandler.sendEmptyMessage(1);
                     }
                 }
             }
         }).start();
+    }
+
+    private boolean isAppForground(String appName){
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP){
+            return appName.equals(getTopActivityBeforeL());
+        }else if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M){
+            return appName.equals(getTopActivityAfterM());
+        }else{
+            return appName.equals(getTopActivityBeforeMAfterL());
+        }
     }
 
     private String getTopActivityBeforeL(){
@@ -107,8 +118,11 @@ public class BackgroundDetectService extends Service implements View.OnClickList
         return currentInfo!=null ? currentInfo.processName : null;
     }
 
+    //http://stackoverflow.com/questions/30619349/android-5-1-1-and-above-getrunningappprocesses-returns-my-application-packag
     private String getTopActivityAfterM(){
-
+        ActivityManager.RunningAppProcessInfo topActivity =
+                ProcessManager.getRunningAppProcessInfo(this).get(0);
+        return topActivity.processName;
     }
 
     private class MyHandler extends Handler{
