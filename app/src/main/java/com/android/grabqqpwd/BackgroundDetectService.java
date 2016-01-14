@@ -84,9 +84,8 @@ public class BackgroundDetectService extends Service implements View.OnClickList
 
     private String getTopActivityBeforeL(){
         ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-        final List<ActivityManager.RunningTaskInfo> taskInfo = activityManager.getRunningTasks(1);
-        final ComponentName componentName = taskInfo.get(0).topActivity;
-        return componentName.getPackageName();
+        final List<ActivityManager.RunningAppProcessInfo> taskInfo = activityManager.getRunningAppProcesses();
+        return taskInfo.get(0).processName;
     }
 
     //http://stackoverflow.com/questions/24625936/getrunningtasks-doesnt-work-in-android-l
