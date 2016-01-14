@@ -75,10 +75,10 @@ public class BackgroundDetectService extends Service implements View.OnClickList
     private boolean isAppForground(String appName){
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP){
             return appName.equals(getTopActivityBeforeL());
-        }else if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M){
-            return appName.equals(getTopActivityAfterM());
+        }else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1){
+            return appName.equals(getTopActivityAfterLM());
         }else{
-            return appName.equals(getTopActivityBeforeMAfterL());
+            return appName.equals(getTopActivityBeforeLMAfterL());
         }
     }
 
@@ -91,7 +91,7 @@ public class BackgroundDetectService extends Service implements View.OnClickList
 
     //http://stackoverflow.com/questions/24625936/getrunningtasks-doesnt-work-in-android-l
     //processState只能在21版本之后使用
-    private String getTopActivityBeforeMAfterL() {
+    private String getTopActivityBeforeLMAfterL() {
         final int PROCESS_STATE_TOP = 2;
         Field field = null;
         ActivityManager.RunningAppProcessInfo currentInfo = null;
@@ -119,7 +119,7 @@ public class BackgroundDetectService extends Service implements View.OnClickList
     }
 
     //http://stackoverflow.com/questions/30619349/android-5-1-1-and-above-getrunningappprocesses-returns-my-application-packag
-    private String getTopActivityAfterM(){
+    private String getTopActivityAfterLM(){
         ActivityManager.RunningAppProcessInfo topActivity =
                 ProcessManager.getRunningAppProcessInfo(this).get(0);
         return topActivity.processName;
