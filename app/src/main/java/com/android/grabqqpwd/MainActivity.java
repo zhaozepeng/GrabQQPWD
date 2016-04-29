@@ -52,8 +52,14 @@ public class MainActivity extends Activity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 1) {
             if (Settings.canDrawOverlays(this)) {
-                Intent intent = new Intent(this, BackgroundDetectService.class);
-                startService(intent);
+                if (ContextCompat.checkSelfPermission(this, Manifest.permission.PACKAGE_USAGE_STATS) !=
+                        PackageManager.PERMISSION_GRANTED){
+                    Intent intent = new Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS);
+                    startActivity(intent);
+                }else {
+                    Intent intent = new Intent(this, BackgroundDetectService.class);
+                    startService(intent);
+                }
             }
         }
     }
