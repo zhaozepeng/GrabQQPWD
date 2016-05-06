@@ -1,20 +1,16 @@
 package com.android.grabqqpwd;
 
-import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AppOpsManager;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.v4.content.ContextCompat;
 import android.view.View;
-
-import java.security.Permission;
+import android.widget.Toast;
 
 /**
  * Description: #TODO
@@ -37,15 +33,37 @@ public class MainActivity extends Activity {
     }
 
     public void onclick(View v) {
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.SYSTEM_ALERT_WINDOW) !=
-                PackageManager.PERMISSION_GRANTED && Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+        if (checkSystemWindowPermission()) {
+            if (checkUsagePermission()) {
+                Intent intent = new Intent(this, BackgroundDetectService.class);
+                startService(intent);
+            }
+        }
+    }
+
+    private boolean checkSystemWindowPermission() {
+        if (!Settings.canDrawOverlays(this) && Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION);
             intent.setData(Uri.parse("package:" + getPackageName()));
             startActivityForResult(intent, 1);
-        } else {
-            Intent intent = new Intent(this, BackgroundDetectService.class);
-            startService(intent);
+            return false;
         }
+        return true;
+    }
+
+    private boolean checkUsagePermission() {
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
+            AppOpsManager appOps = (AppOpsManager) getSystemService(Context.APP_OPS_SERVICE);
+            int mode = 0;
+            mode = appOps.checkOpNoThrow("android:get_usage_stats", android.os.Process.myUid(), getPackageName());
+            boolean granted = mode == AppOpsManager.MODE_ALLOWED;
+            if (!granted) {
+                Intent intent = new Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS);
+                startActivityForResult(intent, 2);
+                return false;
+            }
+        }
+        return true;
     }
 
     @TargetApi(Build.VERSION_CODES.M)
@@ -54,17 +72,18 @@ public class MainActivity extends Activity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 1) {
             if (Settings.canDrawOverlays(this)) {
-                AppOpsManager appOps = (AppOpsManager) getSystemService(Context.APP_OPS_SERVICE);
-                int mode = appOps.checkOpNoThrow("android:get_usage_stats",
-                        android.os.Process.myUid(), getPackageName());
-                boolean granted = mode == AppOpsManager.MODE_ALLOWED;
-                if (!granted){
-                    Intent intent = new Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS);
-                    startActivity(intent);
-                }else {
+                if (checkUsagePermission()) {
                     Intent intent = new Intent(this, BackgroundDetectService.class);
                     startService(intent);
                 }
+            }
+        }else if (requestCode == 2){
+            AppOpsManager appOps = (AppOpsManager) getSystemService(Context.APP_OPS_SERVICE);
+            int mode = 0;
+            mode = appOps.checkOpNoThrow("android:get_usage_stats", android.os.Process.myUid(), getPackageName());
+            boolean granted = mode == AppOpsManager.MODE_ALLOWED;
+            if (!granted) {
+                Toast.makeText(this, "请开启该权限", Toast.LENGTH_SHORT).show();
             }
         }
     }
