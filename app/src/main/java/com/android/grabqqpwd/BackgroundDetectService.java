@@ -84,85 +84,85 @@ public class BackgroundDetectService extends Service implements View.OnClickList
         }).start();
     }
 
-private boolean isAppForeground(String appName){
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP){
-        return appName.equals(getTopActivityBeforeL());
-    }else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1){
-        return appName.equals(getTopActivityAfterLM());
-    }else{
-        return appName.equals(getTopActivityBeforeLMAfterL());
-    }
-}
-
-//5.0之前可以使用getRunningAppProcesses()函数获取
-private String getTopActivityBeforeL(){
-    ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-    final List<ActivityManager.RunningAppProcessInfo> taskInfo = activityManager.getRunningAppProcesses();
-    return taskInfo.get(0).processName;
-}
-
-//http://stackoverflow.com/questions/24625936/getrunningtasks-doesnt-work-in-android-l
-//processState只能在21版本之后使用
-private String getTopActivityBeforeLMAfterL() {
-    final int PROCESS_STATE_TOP = 2;
-    Field field = null;
-    ActivityManager.RunningAppProcessInfo currentInfo = null;
-    try {
-        field = ActivityManager.RunningAppProcessInfo.class.getDeclaredField("processState");
-    } catch (Exception ignored) {
-    }
-    ActivityManager activityManager = (ActivityManager)getSystemService(Context.ACTIVITY_SERVICE);
-    final List<ActivityManager.RunningAppProcessInfo> processInfos = activityManager.getRunningAppProcesses();
-    for (ActivityManager.RunningAppProcessInfo processInfo : processInfos) {
-        if (processInfo.importance == ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND
-                && processInfo.importanceReasonCode == ActivityManager.RunningAppProcessInfo.REASON_UNKNOWN) {
-            Integer state = null;
-            try {
-                state = field.getInt(processInfo);
-            } catch (Exception e) {
-            }
-            if (state != null && state == PROCESS_STATE_TOP) {
-                currentInfo = processInfo;
-                break;
-            }
+    private boolean isAppForeground(String appName){
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP){
+            return appName.equals(getTopActivityBeforeL());
+        }else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1){
+            return appName.equals(getTopActivityAfterLM());
+        }else{
+            return appName.equals(getTopActivityBeforeLMAfterL());
         }
     }
-    return currentInfo!=null ? currentInfo.processName : null;
-}
 
-//注：6.0之后此方法也不太好用了
-//http://stackoverflow.com/questions/30619349/android-5-1-1-and-above-getrunningappprocesses-returns-my-application-packag
+    //5.0之前可以使用getRunningAppProcesses()函数获取
+    private String getTopActivityBeforeL(){
+        ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+        final List<ActivityManager.RunningAppProcessInfo> taskInfo = activityManager.getRunningAppProcesses();
+        return taskInfo.get(0).processName;
+    }
+
+    //http://stackoverflow.com/questions/24625936/getrunningtasks-doesnt-work-in-android-l
+    //processState只能在21版本之后使用
+    private String getTopActivityBeforeLMAfterL() {
+        final int PROCESS_STATE_TOP = 2;
+        Field field = null;
+        ActivityManager.RunningAppProcessInfo currentInfo = null;
+        try {
+            field = ActivityManager.RunningAppProcessInfo.class.getDeclaredField("processState");
+        } catch (Exception ignored) {
+        }
+        ActivityManager activityManager = (ActivityManager)getSystemService(Context.ACTIVITY_SERVICE);
+        final List<ActivityManager.RunningAppProcessInfo> processInfos = activityManager.getRunningAppProcesses();
+        for (ActivityManager.RunningAppProcessInfo processInfo : processInfos) {
+            if (processInfo.importance == ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND
+                    && processInfo.importanceReasonCode == ActivityManager.RunningAppProcessInfo.REASON_UNKNOWN) {
+                Integer state = null;
+                try {
+                    state = field.getInt(processInfo);
+                } catch (Exception e) {
+                }
+                if (state != null && state == PROCESS_STATE_TOP) {
+                    currentInfo = processInfo;
+                    break;
+                }
+            }
+        }
+        return currentInfo!=null ? currentInfo.processName : null;
+    }
+
+    //注：6.0之后此方法也不太好用了。。。求帮忙
+    //http://stackoverflow.com/questions/30619349/android-5-1-1-and-above-getrunningappprocesses-returns-my-application-packag
 //    private String getTopActivityAfterLM(){
 //        ActivityManager.RunningAppProcessInfo topActivity =
 //                ProcessManager.getRunningAppProcessInfo(this).get(0);
 //        return topActivity.processName;
 //    }
 
-@TargetApi(Build.VERSION_CODES.LOLLIPOP_MR1)
-private String getTopActivityAfterLM() {
-    try {
-        UsageStatsManager usageStatsManager = (UsageStatsManager) getSystemService(Context.USAGE_STATS_SERVICE);
-        long milliSecs = 60 * 1000;
-        Date date = new Date();
-        List<UsageStats> queryUsageStats = usageStatsManager.queryUsageStats(UsageStatsManager.INTERVAL_DAILY, date.getTime() - milliSecs, date.getTime());
-        if (queryUsageStats.size() <= 0) {
-            return null;
-        }
-        long recentTime = 0;
-        String recentPkg = "";
-        for (int i = 0; i < queryUsageStats.size(); i++) {
-            UsageStats stats = queryUsageStats.get(i);
-            if (stats.getLastTimeStamp() > recentTime) {
-                recentTime = stats.getLastTimeStamp();
-                recentPkg = stats.getPackageName();
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP_MR1)
+    private String getTopActivityAfterLM() {
+        try {
+            UsageStatsManager usageStatsManager = (UsageStatsManager) getSystemService(Context.USAGE_STATS_SERVICE);
+            long milliSecs = 60 * 1000;
+            Date date = new Date();
+            List<UsageStats> queryUsageStats = usageStatsManager.queryUsageStats(UsageStatsManager.INTERVAL_DAILY, date.getTime() - milliSecs, date.getTime());
+            if (queryUsageStats.size() > 0) {
+                return null;
             }
+            long recentTime = 0;
+            String recentPkg = "";
+            for (int i = 0; i < queryUsageStats.size(); i++) {
+                UsageStats stats = queryUsageStats.get(i);
+                if (stats.getLastTimeStamp() > recentTime) {
+                    recentTime = stats.getLastTimeStamp();
+                    recentPkg = stats.getPackageName();
+                }
+            }
+            return recentPkg;
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        return recentPkg;
-    } catch (Exception e) {
-        e.printStackTrace();
+        return "";
     }
-    return "";
-}
 
     private class MyHandler extends Handler{
         @Override
