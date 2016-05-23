@@ -42,6 +42,16 @@ public class MainActivity extends Activity {
     }
 
     private boolean checkSystemWindowPermission() {
+        if (RomUtils.checkIsMiuiRom()) {
+            return miuiCheckPermission();
+        } else if (RomUtils.checkIsMeizuRom()) {
+            return meizuCheckPermission();
+        } else {
+            return commonCheckPermission();
+        }
+    }
+
+    private boolean commonCheckPermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(this)) {
             Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION);
             intent.setData(Uri.parse("package:" + getPackageName()));
@@ -49,6 +59,20 @@ public class MainActivity extends Activity {
             return false;
         }
         return true;
+    }
+
+    private boolean miuiCheckPermission() {
+        if (!MiuiUtils.checkFloatWindowPermission(this)){
+            MiuiUtils.applyMiuiPermission(this);
+        }
+        return MiuiUtils.checkFloatWindowPermission(this);
+    }
+
+    private boolean meizuCheckPermission() {
+        if (!MeizuUtils.checkFloatWindowPermission(this)){
+            MeizuUtils.applyPermission(this);
+        }
+        return MeizuUtils.checkFloatWindowPermission(this);
     }
 
     private boolean checkUsagePermission() {
@@ -77,7 +101,7 @@ public class MainActivity extends Activity {
                     startService(intent);
                 }
             }
-        }else if (requestCode == 2){
+        } else if (requestCode == 2) {
             AppOpsManager appOps = (AppOpsManager) getSystemService(Context.APP_OPS_SERVICE);
             int mode = 0;
             mode = appOps.checkOpNoThrow("android:get_usage_stats", android.os.Process.myUid(), getPackageName());

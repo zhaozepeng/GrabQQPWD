@@ -1,0 +1,1631 @@
+ACTIVITY MANAGER PENDING INTENTS (dumpsys activity intents)
+  * PendingIntentRecord{26fc654b com.meizu.media.music startService}
+  * PendingIntentRecord{23562b28 com.vlife.mxlock.wallpaper startService}
+  * PendingIntentRecord{779d9e6 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{3d2a0b27 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{2176d1d4 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{117e1f7d com.meizu.media.music broadcastIntent}
+  * PendingIntentRecord{37f9ae72 com.meizu.safe startService}
+  * PendingIntentRecord{6a232c3 android broadcastIntent}
+  * PendingIntentRecord{4593740 android startActivity}
+  * PendingIntentRecord{4523679 com.meizu.customizecenter broadcastIntent}
+  * PendingIntentRecord{3e303fbe com.sohu.inputmethod.sogou startActivity}
+  * PendingIntentRecord{38eb381f android broadcastIntent}
+  * PendingIntentRecord{2e3a876c com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{2db6c135 com.vlife.mxlock.wallpaper startService}
+  * PendingIntentRecord{9ac99ca com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{3195373b com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{5feae58 com.meizu.media.music startService}
+  * PendingIntentRecord{169f3bb1 android startActivity}
+  * PendingIntentRecord{1e28896 android startActivity}
+  * PendingIntentRecord{d160c17 com.meizu.cloud broadcastIntent}
+  * PendingIntentRecord{3adc5804 com.meizu.luckymoney broadcastIntent}
+  * PendingIntentRecord{9bae1ed com.meizu.experiencedatasync broadcastIntent}
+  * PendingIntentRecord{24206e76 com.meizu.flyme.weather broadcastIntent}
+  * PendingIntentRecord{f6552b3 android broadcastIntent}
+  * PendingIntentRecord{16c8f070 com.tencent.mm broadcastIntent}
+  * PendingIntentRecord{1370afe9 com.tencent.mobileqq broadcastIntent}
+  * PendingIntentRecord{13ca146e com.tencent.mm startService}
+  * PendingIntentRecord{ba4a39c com.tencent.mm broadcastIntent}
+  * PendingIntentRecord{59b61a5 com.android.calendar broadcastIntent}
+  * PendingIntentRecord{2587097a com.meizu.media.music startService}
+  * PendingIntentRecord{2dbe652b android broadcastIntent}
+  * PendingIntentRecord{27265d88 com.tencent.mm startService}
+  * PendingIntentRecord{3b057321 com.tencent.mm startService}
+  * PendingIntentRecord{36ec4346 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{2d3c2907 android broadcastIntent}
+  * PendingIntentRecord{1987ca34 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{16a5205d com.meizu.media.music startService}
+  * PendingIntentRecord{19194dd2 com.facishare.fs broadcastIntent}
+  * PendingIntentRecord{27e84ea3 android broadcastIntent}
+  * PendingIntentRecord{3af155a0 com.tencent.mm startService}
+  * PendingIntentRecord{1d9a751e android broadcastIntent}
+  * PendingIntentRecord{1da731ff android broadcastIntent}
+  * PendingIntentRecord{3ba62bcc com.tencent.mm broadcastIntent}
+  * PendingIntentRecord{32e0fe15 android broadcastIntent}
+  * PendingIntentRecord{1074c52a com.meizu.cloud broadcastIntent}
+  * PendingIntentRecord{3e46ef1b com.meizu.media.music broadcastIntent}
+  * PendingIntentRecord{2af038b8 android broadcastIntent}
+  * PendingIntentRecord{fe06691 android broadcastIntent}
+  * PendingIntentRecord{6f209f6 android broadcastIntent}
+  * PendingIntentRecord{1e5b61f7 com.facishare.fs broadcastIntent}
+  * PendingIntentRecord{cc2864 com.tencent.mm startService}
+  * PendingIntentRecord{2c93dacd com.tencent.mm broadcastIntent}
+  * PendingIntentRecord{1dda2693 com.tencent.mobileqq broadcastIntent}
+  * PendingIntentRecord{165566d0 android broadcastIntent}
+  * PendingIntentRecord{1c9056c9 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{c5c61ce android broadcastIntent}
+  * PendingIntentRecord{1c7698ef com.tencent.mm broadcastIntent}
+  * PendingIntentRecord{3dbe9685 android broadcastIntent}
+  * PendingIntentRecord{be0ccda com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{17bdd50b com.tencent.mm startService}
+  * PendingIntentRecord{29d71601 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{1f0edca6 android broadcastIntent}
+  * PendingIntentRecord{ef2b6e7 com.tencent.mobileqq broadcastIntent}
+  * PendingIntentRecord{2ebc7294 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{39e113d android broadcastIntent}
+  * PendingIntentRecord{5bc1d32 android broadcastIntent}
+  * PendingIntentRecord{35382400 com.tencent.mobileqq broadcastIntent}
+  * PendingIntentRecord{1bdf8439 com.meizu.flyme.input broadcastIntent}
+  * PendingIntentRecord{358ada7e com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{16259bdf com.meizu.flyme.launcher broadcastIntent}
+  * PendingIntentRecord{2a2b2af5 com.facishare.fs startActivity}
+  * PendingIntentRecord{9f6208a com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{307216fb android broadcastIntent}
+  * PendingIntentRecord{24b67318 android broadcastIntent}
+  * PendingIntentRecord{15508171 android broadcastIntent}
+  * PendingIntentRecord{291dbb56 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{38a67594 com.facishare.fs broadcastIntent}
+  * PendingIntentRecord{c2ba8c4 com.meizu.safe startService}
+  * PendingIntentRecord{79ac3ad com.android.providers.calendar broadcastIntent}
+  * PendingIntentRecord{295236e2 com.meizu.flyme.update broadcastIntent}
+  * PendingIntentRecord{39866a73 android broadcastIntent}
+  * PendingIntentRecord{3a9c8d30 com.meizu.safe broadcastIntent}
+  * PendingIntentRecord{acceda9 com.tencent.mm startService}
+  * PendingIntentRecord{360df2e com.tencent.mobileqq broadcastIntent}
+  * PendingIntentRecord{3fd33acf com.vlife.mxlock.wallpaper startService}
+  * PendingIntentRecord{13f54c5c com.tencent.mm startService}
+  * PendingIntentRecord{27ddbb65 android broadcastIntent}
+  * PendingIntentRecord{1d9fc03a android startActivity}
+  * PendingIntentRecord{3072b4eb com.meizu.experiencedatasync broadcastIntent}
+  * PendingIntentRecord{2cb8d248 android broadcastIntent}
+  * PendingIntentRecord{673a8e1 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{3bb9a606 com.sohu.inputmethod.sogou startService}
+  * PendingIntentRecord{2d45b4c7 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{820f21d com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{2b5ed663 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{1045a260 com.meizu.flyme.gamecenter startActivity}
+  * PendingIntentRecord{1b5f9319 android broadcastIntent}
+  * PendingIntentRecord{24d96fde android broadcastIntent}
+
+ACTIVITY MANAGER BROADCAST STATE (dumpsys activity broadcasts)
+  Historical broadcasts [foreground]:
+  #0: BroadcastRecord{145e75bf u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #1: BroadcastRecord{4d2848c u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #2: BroadcastRecord{24d47d5 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #3: BroadcastRecord{2a88abea u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #4: BroadcastRecord{218eaedb u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #5: BroadcastRecord{1b695d78 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #6: BroadcastRecord{9278c51 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #7: BroadcastRecord{a3d9cb6 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #8: BroadcastRecord{cbf5db7 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #9: BroadcastRecord{2e92d924 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #10: BroadcastRecord{28879c8d u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #11: BroadcastRecord{357ece42 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #12: BroadcastRecord{32e21e53 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #13: BroadcastRecord{16b66390 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #14: BroadcastRecord{f5e7489 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #15: BroadcastRecord{3daf8c8e u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #16: BroadcastRecord{4664caf u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #17: BroadcastRecord{94628bc u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #18: BroadcastRecord{10b0d045 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #19: BroadcastRecord{151be39a u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #20: BroadcastRecord{1f5504cb u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #21: BroadcastRecord{3eab14a8 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #22: BroadcastRecord{31132bc1 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #23: BroadcastRecord{14c49f66 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #24: BroadcastRecord{2f2d22a7 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #25: BroadcastRecord{af0d354 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #26: BroadcastRecord{fe5c2fd u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #27: BroadcastRecord{12eb4bf2 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #28: BroadcastRecord{2e7f4243 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #29: BroadcastRecord{1531d0c0 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #30: BroadcastRecord{285091f9 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #31: BroadcastRecord{165e353e u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #32: BroadcastRecord{2649bf9f u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #33: BroadcastRecord{19c338ec u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #34: BroadcastRecord{25ff54b5 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #35: BroadcastRecord{3284674a u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #36: BroadcastRecord{714b6bb u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #37: BroadcastRecord{2320f7d8 u-1 android.intent.action.CLOSE_SYSTEM_DIALOGS}
+    act=android.intent.action.CLOSE_SYSTEM_DIALOGS flg=0x50000010 (has extras)
+    extras: Bundle[{reason=homekey}]
+  #38: BroadcastRecord{99d8731 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #39: BroadcastRecord{1829ae16 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #40: BroadcastRecord{37ce0397 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #41: BroadcastRecord{2599b984 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #42: BroadcastRecord{1912656d u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #43: BroadcastRecord{270a95a2 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #44: BroadcastRecord{36654233 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #45: BroadcastRecord{29bae9f0 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #46: BroadcastRecord{177ceb69 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #47: BroadcastRecord{c2069ee u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #48: BroadcastRecord{2627ce8f u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #49: BroadcastRecord{317cb51c u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  ...
+
+  Historical broadcasts [background]:
+  #0: BroadcastRecord{1b2b583d u0 com.fxiaoke.fxsocketlib.envctrl.awaken}
+    act=com.fxiaoke.fxsocketlib.envctrl.awaken flg=0x114 (has extras)
+    targetComp: {com.facishare.fs/com.fxiaoke.fxsocketlib.envctrl.FcpHeartBeatReceiver}
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #1: BroadcastRecord{2855832 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3844, invalid_charger=0}]
+  #2: BroadcastRecord{efd525 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3844, invalid_charger=0}]
+  #3: BroadcastRecord{38ad36fa u0 com.fxiaoke.fxsocketlib.envctrl.awaken}
+    act=com.fxiaoke.fxsocketlib.envctrl.awaken flg=0x114 (has extras)
+    targetComp: {com.facishare.fs/com.fxiaoke.fxsocketlib.envctrl.FcpHeartBeatReceiver}
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #4: BroadcastRecord{27dcc4ab u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3846, invalid_charger=0}]
+  #5: BroadcastRecord{42e0708 u-1 android.net.wifi.SCAN_RESULTS}
+    act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras)
+    extras: Bundle[{SHOW_RESELECT_DIALOG=false}]
+  #6: BroadcastRecord{5ed9ea1 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3848, invalid_charger=0}]
+  #7: BroadcastRecord{3e07c8c6 u0 com.fxiaoke.fxsocketlib.envctrl.awaken}
+    act=com.fxiaoke.fxsocketlib.envctrl.awaken flg=0x114 (has extras)
+    targetComp: {com.facishare.fs/com.fxiaoke.fxsocketlib.envctrl.FcpHeartBeatReceiver}
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #8: BroadcastRecord{17a10087 u0 com.tencent.mm.TrafficStatsReceiver}
+    act=com.tencent.mm.TrafficStatsReceiver flg=0x114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #9: BroadcastRecord{d208bb4 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3847, invalid_charger=0}]
+  #10: BroadcastRecord{2a483dd u0 AlarmTaskSchedule.com.facishare.fs}
+    act=AlarmTaskSchedule.com.facishare.fs flg=0x114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #11: BroadcastRecord{1a27ab52 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3844, invalid_charger=0}]
+  #12: BroadcastRecord{c831e23 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3840, invalid_charger=0}]
+  #13: BroadcastRecord{3914af20 u0 com.fxiaoke.fxsocketlib.envctrl.awaken}
+    act=com.fxiaoke.fxsocketlib.envctrl.awaken flg=0x114 (has extras)
+    targetComp: {com.facishare.fs/com.fxiaoke.fxsocketlib.envctrl.FcpHeartBeatReceiver}
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #14: BroadcastRecord{2dea80d9 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3839, invalid_charger=0}]
+  #15: BroadcastRecord{f12a9e u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3838, invalid_charger=0}]
+  #16: BroadcastRecord{35df797f u0 com.android.server.task.controllers.BatteryController.ACTION_CHARGING_STABLE}
+    act=com.android.server.task.controllers.BatteryController.ACTION_CHARGING_STABLE flg=0x114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #17: BroadcastRecord{3e659d4c u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3835, invalid_charger=0}]
+  #18: BroadcastRecord{3bf95195 u0 com.fxiaoke.fxsocketlib.envctrl.awaken}
+    act=com.fxiaoke.fxsocketlib.envctrl.awaken flg=0x114 (has extras)
+    targetComp: {com.facishare.fs/com.fxiaoke.fxsocketlib.envctrl.FcpHeartBeatReceiver}
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #19: BroadcastRecord{2e4152aa u-1 android.net.wifi.SCAN_RESULTS}
+    act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras)
+    extras: Bundle[{SHOW_RESELECT_DIALOG=false}]
+  #20: BroadcastRecord{327c2e9b u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3831, invalid_charger=0}]
+  #21: BroadcastRecord{3bf54238 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3828, invalid_charger=0}]
+  #22: BroadcastRecord{30ea7211 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3825, invalid_charger=0}]
+  #23: BroadcastRecord{cb9ef76 u0 com.fxiaoke.fxsocketlib.envctrl.awaken}
+    act=com.fxiaoke.fxsocketlib.envctrl.awaken flg=0x114 (has extras)
+    targetComp: {com.facishare.fs/com.fxiaoke.fxsocketlib.envctrl.FcpHeartBeatReceiver}
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #24: BroadcastRecord{3d651977 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3821, invalid_charger=0}]
+  #25: BroadcastRecord{1ad849e4 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=350, voltage=3817, invalid_charger=0}]
+  #26: BroadcastRecord{1ef31e4d u0 com.meizu.nebula.Ping}
+    act=com.meizu.nebula.Ping dat=timer://com.meizu.nebula.Ping/Timer{mType=ELAPSED_REALTIME_WAKEUP, mPeriod=324000, mSetTime=446648855, mAction=com.meizu.nebula.Ping} flg=0x114 (has extras)
+    extras: Bundle[{TimerEvent=Timer{mType=ELAPSED_REALTIME_WAKEUP, mPeriod=324000, mSetTime=446648855, mAction=com.meizu.nebula.Ping}, android.intent.extra.ALARM_COUNT=1}]
+  #27: BroadcastRecord{3d4d8d02 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3814, invalid_charger=0}]
+  #28: BroadcastRecord{c87d613 u0 com.fxiaoke.fxsocketlib.envctrl.awaken}
+    act=com.fxiaoke.fxsocketlib.envctrl.awaken flg=0x114 (has extras)
+    targetComp: {com.facishare.fs/com.fxiaoke.fxsocketlib.envctrl.FcpHeartBeatReceiver}
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #29: BroadcastRecord{1ec22050 u0 com.tencent.mobileqq:MSF_280332832}
+    act=com.tencent.mobileqq:MSF_280332832 flg=0x114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #30: BroadcastRecord{c605249 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3810, invalid_charger=0}]
+  #31: BroadcastRecord{b8b774e u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3807, invalid_charger=0}]
+  #32: BroadcastRecord{3d0fc06f u0 AlarmTaskSchedule.com.facishare.fs}
+    act=AlarmTaskSchedule.com.facishare.fs flg=0x114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #33: BroadcastRecord{1130f17c u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3804, invalid_charger=0}]
+  #34: BroadcastRecord{3d52ca05 u0 com.fxiaoke.fxsocketlib.envctrl.awaken}
+    act=com.fxiaoke.fxsocketlib.envctrl.awaken flg=0x114 (has extras)
+    targetComp: {com.facishare.fs/com.fxiaoke.fxsocketlib.envctrl.FcpHeartBeatReceiver}
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #35: BroadcastRecord{1aabba5a u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3800, invalid_charger=0}]
+  #36: BroadcastRecord{2981f48b u0 android.intent.action.PACKAGE_RESTARTED}
+    act=android.intent.action.PACKAGE_RESTARTED dat=package:com.android.grabqqpwd flg=0x10 (has extras)
+    extras: Bundle[{android.intent.extra.UID=10113, android.intent.extra.user_handle=0}]
+  #37: BroadcastRecord{3359a968 u0 com.tencent.process.exit}
+    act=com.tencent.process.exit flg=0x10 (has extras)
+    extras: Bundle[mParcelledData.dataSize=284]
+  #38: BroadcastRecord{1d3b0181 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3797, invalid_charger=0}]
+  #39: BroadcastRecord{175b2226 u0 android.intent.action.PACKAGE_REPLACED}
+    act=android.intent.action.PACKAGE_REPLACED dat=package:com.android.grabqqpwd flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.UID=10113, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #40: BroadcastRecord{5994e67 u0 android.intent.action.PACKAGE_ADDED}
+    act=android.intent.action.PACKAGE_ADDED dat=package:com.android.grabqqpwd flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.UID=10113, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #41: BroadcastRecord{22d3f414 u0 android.intent.action.PACKAGE_REMOVED}
+    act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.grabqqpwd flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.REMOVED_FOR_ALL_USERS=false, android.intent.extra.UID=10113, android.intent.extra.DATA_REMOVED=false, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #42: BroadcastRecord{41534bd u0 android.intent.action.PACKAGE_REPLACED}
+    act=android.intent.action.PACKAGE_REPLACED dat=package:com.android.grabqqpwd flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.UID=10113, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #43: BroadcastRecord{3a473ab2 u0 android.intent.action.PACKAGE_ADDED}
+    act=android.intent.action.PACKAGE_ADDED dat=package:com.android.grabqqpwd flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.UID=10113, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #44: BroadcastRecord{1be26a03 u0 android.intent.action.PACKAGE_REMOVED}
+    act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.grabqqpwd flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.REMOVED_FOR_ALL_USERS=false, android.intent.extra.UID=10113, android.intent.extra.DATA_REMOVED=false, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #45: BroadcastRecord{1d063d80 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3794, invalid_charger=0}]
+  #46: BroadcastRecord{13655fb9 u0 com.fxiaoke.fxsocketlib.envctrl.awaken}
+    act=com.fxiaoke.fxsocketlib.envctrl.awaken flg=0x114 (has extras)
+    targetComp: {com.facishare.fs/com.fxiaoke.fxsocketlib.envctrl.FcpHeartBeatReceiver}
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #47: BroadcastRecord{276a4ffe u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3792, invalid_charger=0}]
+  #48: BroadcastRecord{917a35f u0 com.android.server.task.controllers.BatteryController.ACTION_CHARGING_STABLE}
+    act=com.android.server.task.controllers.BatteryController.ACTION_CHARGING_STABLE flg=0x114 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #49: BroadcastRecord{d51b1ac u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, level_2nd=50, icon-small=17303135, present_2nd=false, health=2, status=2, plugged=2, present=true, level=45, scale=100, status_2nd=4, temperature=360, voltage=3788, invalid_charger=0}]
+  ...
+
+  Sticky broadcasts for user -1:
+  * Sticky action android.intent.action.SERVICE_STATE
+  * Sticky action android.net.wifi.WIFI_STATE_CHANGED
+  * Sticky action mediatek.intent.action.ACTION_SIM_STATE_CHANGED_MULTI_APPLICATION
+  * Sticky action android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+  * Sticky action android.media.ACTION_SCO_AUDIO_STATE_UPDATED
+  * Sticky action android.net.wifi.p2p.THIS_DEVICE_CHANGED
+  * Sticky action mediatek.intent.action.LOCATED_PLMN_CHANGED
+  * Sticky action android.intent.action.BATTERY_CHANGED
+  * Sticky action android.net.conn.CONNECTIVITY_CHANGE
+  * Sticky action android.intent.action.ANY_DATA_STATE
+  * Sticky action android.provider.Telephony.SPN_STRINGS_UPDATED
+  * Sticky action android.net.nsd.STATE_CHANGED
+  * Sticky action android.hardware.usb.action.USB_STATE
+  * Sticky action android.net.wifi.RSSI_CHANGED
+  * Sticky action android.net.wifi.STATE_CHANGE
+  * Sticky action android.intent.action.SIM_STATE_CHANGED
+  * Sticky action android.intent.action.SIG_STR
+  * Sticky action com.mediatek.wfd.connection
+  * Sticky action android.media.INTERNAL_RINGER_MODE_CHANGED_ACTION
+  * Sticky action android.net.wifi.supplicant.STATE_CHANGE
+  * Sticky action android.net.wifi.p2p.PERSISTENT_GROUPS_CHANGED
+  * Sticky action android.net.conn.INET_CONDITION_ACTION
+  * Sticky action android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE
+  * Sticky action android.media.SCO_AUDIO_STATE_CHANGED
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+  * Sticky action android.net.pppoe.PPPOE_STATE_CHANGED
+  * Sticky action android.media.MASTER_MUTE_CHANGED_ACTION
+  * Sticky action wifi_scan_available
+  * Sticky action android.net.wifi.p2p.STATE_CHANGED
+  * Sticky action android.intent.action.HDMI_PLUGGED
+  * Sticky action android.media.RINGER_MODE_CHANGED
+
+  Sticky broadcasts for user 0:
+  * Sticky action com.meizu.launcher.WALLPAPER_COLOR_CHANGE
+  * Sticky action android.intent.action.ACTION_SUBINFO_RECORD_UPDATED
+  * Sticky action android.intent.action.HAPTIC_INITIALIZED
+  * Sticky action com.android.music.playstatechanged
+
+ACTIVITY MANAGER CONTENT PROVIDERS (dumpsys activity providers)
+  Published single-user content providers (by class):
+  * ContentProviderRecord{113d167b u0 com.android.providers.telephony/.HbpcdLookupProvider}
+    proc=ProcessRecord{56fad9e 1567:com.android.phone/1001}
+    singleton=true
+    authority=hbpcd_lookup
+  * ContentProviderRecord{372561d1 u0 com.android.providers.settings/.SettingsProvider}
+    proc=ProcessRecord{37cba3d5 717:system/1000}
+    singleton=true
+    authority=settings
+    38 connections, 0 external handles
+      -> 933:com.android.systemui/u0a84 s1/1 u0/0 +5d4h12m4s412ms
+      -> 1312:com.sohu.inputmethod.sogou/u0a76 s1/1 u0/0 +5d4h12m2s844ms
+      -> 1355:com.baidu.map.location/u0a18 s1/1 u0/0 +5d4h12m2s714ms
+      -> 1429:com.meizu.experiencedatasync/1000 s1/1 u0/0 +5d4h12m2s497ms
+      -> 1454:com.mediatek.bluetooth/1002 s1/1 u0/0 +5d4h12m2s100ms
+      -> 1500:com.mediatek.nlpservice/u0a58 s1/1 u0/0 +5d4h12m2s76ms
+      -> 1523:com.meizu.cloud/u0a49 s1/1 u0/0 +5d4h12m2s75ms
+      -> 1475:com.android.incallui/u0a4 s1/1 u0/0 +5d4h12m2s75ms
+      -> 1544:com.meizu.mzsyncservice/u0a56 s1/1 u0/0 +5d4h12m2s75ms
+      -> 1567:com.android.phone/1001 s1/1 u0/0 +5d4h12m2s75ms
+      -> 1590:com.meizu.flyme.launcher/u0a83 s1/1 u0/0 +5d4h12m2s73ms
+      -> 2137:com.meizu.cloud:mzservice_v1/u0a49 s1/1 u0/0 +5d4h11m56s768ms
+      -> 2313:com.meizu.safe/1000 s1/1 u0/0 +5d4h11m55s155ms
+      -> 3763:com.tencent.mm/u0a97 s1/1 u0/0 +5d4h11m37s91ms
+      -> 3977:com.tencent.mm:push/u0a97 s1/1 u0/0 +5d4h11m1s313ms
+      -> 21568:com.meizu.safe:Remote/1000 s1/1 u0/0 +4d2h23m26s210ms
+      -> 21612:sogou.mobile.explorer.hotwords/u0a76 s1/1 u0/0 +4d2h23m16s254ms
+      -> 21644:com.meizu.flyme.service.find/u0a52 s1/1 u0/0 +4d2h23m6s262ms
+      -> 21736:org.simalliance.openmobileapi.service:remote/1000 s1/1 u0/0 +4d2h22m46s305ms
+      -> 7086:com.meizu.media.gallery/u0a11 s1/1 u0/0 +3d23h30m50s77ms
+      -> 7124:com.meizu.media.gallery:backup/u0a11 s1/1 u0/0 +3d23h30m49s680ms
+      -> 19850:com.meizu.net.search/u0a66 s1/1 u0/0 +3d19h50m5s919ms
+      -> 11776:com.meizu.media.music/u0a14 s1/1 u0/0 +3d4h12m1s244ms
+      -> 3580:com.meizu.luckymoney/u0a84 s1/1 u0/0 +6h2m48s106ms
+      -> 1022:com.tencent.mobileqq/u0a10 s1/1 u0/0 +37m1s105ms
+      -> 1059:com.tencent.mobileqq:MSF/u0a10 s1/1 u0/0 +37m0s353ms
+      -> 3335:com.facishare.fs:monitor_statengine/u0a112 s1/1 u0/0 +33m35s376ms
+      -> 3397:com.facishare.fs:pushservice/u0a112 s1/1 u0/0 +33m19s911ms
+      -> 4633:com.facishare.fs/u0a112 s1/1 u0/0 +30m20s587ms
+      -> 14066:android.process.media/u0a7 s1/1 u0/0 +6m8s285ms
+      -> 14308:com.android.defcontainer/u0a6 s1/1 u0/0 +3m58s146ms
+      -> 14348:android.process.acore/u0a4 s1/1 u0/0 +3m57s287ms
+      -> 14379:com.android.musicfx/u0a15 s1/1 u0/0 +3m57s98ms
+      -> 14401:com.android.settings/1000 s1/1 u0/0 +3m57s11ms
+      -> 14427:com.meizu.filemanager/u0a37 s1/1 u0/0 +3m56s941ms
+      -> 14468:com.android.keychain/1000 s1/1 u0/0 +3m56s817ms
+      -> 14519:com.android.packageinstaller/1000 s1/1 u0/0 +3m56s716ms
+      -> 14633:com.svox.pico/u0a63 s1/1 u0/0 +3m56s82ms
+  * ContentProviderRecord{11fe3c98 u0 com.android.providers.settings/.ShareListProvider}
+    proc=ProcessRecord{37cba3d5 717:system/1000}
+    singleton=true
+    authority=meizu_share
+  * ContentProviderRecord{1568b27c u0 com.android.providers.telephony/.MmsProvider}
+    proc=ProcessRecord{56fad9e 1567:com.android.phone/1001}
+    singleton=true
+    authority=mms
+  * ContentProviderRecord{3080839e u0 com.android.providers.telephony/.MmsSmsProvider}
+    proc=ProcessRecord{56fad9e 1567:com.android.phone/1001}
+    singleton=true
+    authority=mms-sms
+  * ContentProviderRecord{393901bd u0 com.android.providers.telephony/.SmsProvider}
+    proc=ProcessRecord{56fad9e 1567:com.android.phone/1001}
+    singleton=true
+    authority=sms
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{15464cf1 u0 com.tencent.mobileqq/.openapi.OpenApiProvider}
+    proc=ProcessRecord{de9a45f 1022:com.tencent.mobileqq/u0a10}
+    authority=com.tencent.mobileqq.openapi.provider
+  * ContentProviderRecord{2dc660d6 u0 com.meizu.safe/com.qihoo360.mobilesafe.provider.SafeGuardProviderSdk}
+    proc=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    authority=com.qihoo360.mobilesafeguardsdk
+  * ContentProviderRecord{2a7c9f57 u0 com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences
+  * ContentProviderRecord{23e68a44 u0 com.tencent.mm/.plugin.base.stub.MMPluginProvider}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.sdk.plugin.provider
+  * ContentProviderRecord{3be1c72d u0 com.meizu.safe/.blockService.provider.BSNoteSyncProvider}
+    proc=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    authority=com.meizu.blockservice.sync
+  * ContentProviderRecord{39fb462 u0 com.mediatek.bluetooth/.ftp.BluetoothFtpProvider}
+    proc=ProcessRecord{19c1d9f3 1454:com.mediatek.bluetooth/1002}
+    authority=com.mediatek.provider.bluetooth.ftp
+  * ContentProviderRecord{ce406b0 u0 com.tencent.mm/.plugin.base.stub.WXCommProvider}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.sdk.comm.provider
+  * ContentProviderRecord{1340a929 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.plugin.ext.AccountSync
+  * ContentProviderRecord{24c8b4ae u0 com.sohu.inputmethod.sogou/sogou.mobile.explorer.hotwords.provider.BrowserProvider}
+    proc=ProcessRecord{14bea7b3 1312:com.sohu.inputmethod.sogou/u0a76}
+    authority=sogou.mobile.explorer.hotwords
+  * ContentProviderRecord{3ba8da56 u0 com.android.providers.media/.MediaProvider}
+    proc=ProcessRecord{1520e0ce 14066:android.process.media/u0a7}
+    authority=media
+  * ContentProviderRecord{1ec9b18e u0 com.meizu.flyme.launcher/.LauncherProvider}
+    proc=ProcessRecord{27ee9d4d 1590:com.meizu.flyme.launcher/u0a83}
+    authority=com.meizu.flyme.launcher.settings
+  * ContentProviderRecord{65a0fb1 u0 com.meizu.mzsyncservice/com.meizu.sync.database.SyncSettingProvider}
+    proc=ProcessRecord{8f61355 1544:com.meizu.mzsyncservice/u0a56}
+    authority=com.meizu.sync.settings
+  * ContentProviderRecord{3d16224f u0 com.sohu.inputmethod.sogou/sogou.mobile.explorer.hotwords.mini.download.DownloadProvider}
+    proc=ProcessRecord{18fadddc 21612:sogou.mobile.explorer.hotwords/u0a76}
+    authority=sogou.mobile.explorer.hotwords.mini.download
+  * ContentProviderRecord{691aee5 u0 com.sohu.inputmethod.sogou/com.sogou.androidtool.sdk.downloads.DownloadProvider}
+    proc=ProcessRecord{14bea7b3 1312:com.sohu.inputmethod.sogou/u0a76}
+    authority=sogou_sdk_downloads
+  * ContentProviderRecord{196f6dba u0 com.meizu.mzsyncservice/com.meizu.sync.database.MSyncProvider}
+    proc=ProcessRecord{8f61355 1544:com.meizu.mzsyncservice/u0a56}
+    authority=com.meizu.sync.provider
+  * ContentProviderRecord{1fbc946b u0 com.svox.pico/.providers.SettingsProvider}
+    proc=ProcessRecord{2e45fbc8 14633:com.svox.pico/u0a63}
+    authority=com.svox.pico.providers.SettingsProvider
+  * ContentProviderRecord{b335461 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.plugin.ext.entry
+  * ContentProviderRecord{c96ab86 u0 com.meizu.filemanager/com.meizu.flyme.filemanager.FileSearchProvider}
+    proc=ProcessRecord{340e0c47 14427:com.meizu.filemanager/u0a37}
+    authority=com.meizu.flyme.filemanager.FileSearchProvider
+  * ContentProviderRecord{37a30c74 u0 com.meizu.media.music/.data.MusicProvider}
+    proc=ProcessRecord{908182b 11776:com.meizu.media.music/u0a14}
+    authority=com.meizu.media.music.provider
+  * ContentProviderRecord{33efd59d u0 com.meizu.safe/.blockService.provider.BlockResultProvider}
+    proc=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    authority=blockresult
+  * ContentProviderRecord{3edb1c22 u0 com.meizu.safe/com.meizu.power.provider.PowerProvider}
+    proc=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    authority=com.meizu.safe.provider
+    2 connections, 0 external handles
+      -> 717:system/1000 s0/0 u1/1 +5d4h11m53s133ms
+      -> 21568:com.meizu.safe:Remote/1000 s0/0 u1/1 +4d2h23m26s30ms
+  * ContentProviderRecord{4a1fa12 u0 com.meizu.media.gallery/.barcode.db.BarcodeProvider}
+    proc=ProcessRecord{3ef46c20 7086:com.meizu.media.gallery/u0a11}
+    authority=com.meizu.media.gallery.barcode
+  * ContentProviderRecord{f1525e3 u0 com.meizu.flyme.service.find/.provider.DataProvider}
+    proc=ProcessRecord{e1e7be0 21644:com.meizu.flyme.service.find/u0a52}
+    authority=com.meizu.flyme.service.find
+  * ContentProviderRecord{3bf92e99 u0 com.tencent.mm/.plugin.gwallet.GWalletQueryProvider}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.plugin.gwallet.queryprovider
+  * ContentProviderRecord{18a1a55e u0 com.android.providers.downloads/.DownloadProvider}
+    proc=ProcessRecord{1520e0ce 14066:android.process.media/u0a7}
+    authority=downloads
+  * ContentProviderRecord{1ea3d3f u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.plugin.ext.SearchContact
+  * ContentProviderRecord{184cec3b u0 com.android.providers.telephony/.TelephonyProvider}
+    proc=ProcessRecord{56fad9e 1567:com.android.phone/1001}
+    authority=telephony
+  * ContentProviderRecord{d1f760c u0 com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider}
+    proc=ProcessRecord{de9a45f 1022:com.tencent.mobileqq/u0a10}
+    authority=qq.readinjoy
+  * ContentProviderRecord{5a51b55 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.plugin.ext.message
+  * ContentProviderRecord{2e5eb96a u0 com.android.providers.contacts/.CallLogProvider}
+    proc=ProcessRecord{2ccf6e5b 14348:android.process.acore/u0a4}
+    authority=call_log
+  * ContentProviderRecord{3d53e6f8 u0 com.android.providers.applications/.ApplicationsProvider}
+    proc=ProcessRecord{2ccf6e5b 14348:android.process.acore/u0a4}
+    authority=applications
+  * ContentProviderRecord{8e917d1 u0 com.android.phone/.MzIccProvider}
+    proc=ProcessRecord{56fad9e 1567:com.android.phone/1001}
+    authority=icc
+  * ContentProviderRecord{9b03bc4 u0 com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider}
+    proc=ProcessRecord{de9a45f 1022:com.tencent.mobileqq/u0a10}
+    authority=com.tencent.common.config.provider.QZoneConfigProvider
+  * ContentProviderRecord{d270236 u0 com.meizu.safe/.blockService.provider.BlockCallsProvider}
+    proc=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    authority=blockcall
+  * ContentProviderRecord{8d9fed3 u0 com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl}
+    proc=ProcessRecord{de9a45f 1022:com.tencent.mobileqq/u0a10}
+    authority=com.tencent.mqq.shared_file_accessor.ContentProviderImpl
+  * ContentProviderRecord{280c9537 u0 com.meizu.safe/.blockService.provider.BlackListProvider}
+    proc=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    authority=blackList
+  * ContentProviderRecord{25c7aa4 u0 com.sohu.inputmethod.sogou/sogou.mobile.explorer.hotwords.mini.cloud.db.CloudProvider}
+    proc=ProcessRecord{18fadddc 21612:sogou.mobile.explorer.hotwords/u0a76}
+    authority=sogou.mobile.explorer.hotwords.mini.cloud.db
+  * ContentProviderRecord{2d96600d u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.plugin.ext.NearBy
+  * ContentProviderRecord{11590bc2 u0 com.meizu.safe/.blockService.provider.BlockMessagesProvider}
+    proc=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    authority=blockmessage
+  * ContentProviderRecord{1e8b4dd3 u0 com.baidu.map.location/.DebugFlagContentProvider}
+    proc=ProcessRecord{9dbbafd 1355:com.baidu.map.location/u0a18}
+    authority=com.baidu.map.location.provider.DebugFlag
+  * ContentProviderRecord{8b16a5c u0 com.meizu.cloud/.provider.CloudProvider}
+    proc=ProcessRecord{211a8165 1523:com.meizu.cloud/u0a49}
+    authority=com.meizu.cloud
+  * ContentProviderRecord{d55f009 u0 com.meizu.net.search/.db.HistoryContentProvider}
+    proc=ProcessRecord{dc340ca 19850:com.meizu.net.search/u0a66}
+    authority=com.meizu.net.search.provider.history
+  * ContentProviderRecord{cb0220e u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.plugin.ext.SNS
+  * ContentProviderRecord{3566b736 u0 com.android.phone/.PhoneSearchIndexablesProvider}
+    proc=ProcessRecord{56fad9e 1567:com.android.phone/1001}
+    authority=com.android.phone
+  * ContentProviderRecord{3632f42f u0 com.android.providers.contacts/.ContactsProvider2}
+    proc=ProcessRecord{2ccf6e5b 14348:android.process.acore/u0a4}
+    authority=contacts;com.android.contacts
+  * ContentProviderRecord{25727a3c u0 com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase}
+    proc=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    authority=com.tencent.mm.plugin.ext.ExtContentProviderBase
+  * ContentProviderRecord{196483c5 u0 com.mediatek.bluetooth/.prx.monitor.PrxmProvider}
+    proc=ProcessRecord{19c1d9f3 1454:com.mediatek.bluetooth/1002}
+    authority=com.mediatek.provider.bluetooth.prxm
+  * ContentProviderRecord{1f50511a u0 com.android.settings/android.support.v4.content.FileProvider}
+    proc=ProcessRecord{a348412 14401:com.android.settings/1000}
+    authority=com.android.settings.files
+  * ContentProviderRecord{2204a44b u0 com.facishare.fs/com.fxiaoke.dataimpl.contacts.baichuan.provider.BaichuanContactProvider}
+    proc=ProcessRecord{30afe28 4633:com.facishare.fs/u0a112}
+    authority=com.facishare.fs.baichuan.contact
+  * ContentProviderRecord{200e9741 u0 com.mediatek.bluetooth/.share.BluetoothShareProvider}
+    proc=ProcessRecord{19c1d9f3 1454:com.mediatek.bluetooth/1002}
+    authority=com.mediatek.provider.bluetooth.share
+  * ContentProviderRecord{31ac4916 u0 com.tencent.mobileqq/.content.FriendListProvider}
+    proc=ProcessRecord{de9a45f 1022:com.tencent.mobileqq/u0a10}
+    authority=qq.friendlist
+  * ContentProviderRecord{159264e6 u0 com.android.providers.contacts/.VoicemailContentProvider}
+    proc=ProcessRecord{2ccf6e5b 14348:android.process.acore/u0a4}
+    authority=com.android.voicemail
+  * ContentProviderRecord{39f73a27 u0 com.mediatek.bluetooth/.bip.BipProvider}
+    proc=ProcessRecord{19c1d9f3 1454:com.mediatek.bluetooth/1002}
+    authority=com.mediatek.provider.bluetooth.bip
+  * ContentProviderRecord{3759933f u0 com.meizu.experiencedatasync/com.meizu.statsapp.UsageStatsProvider}
+    proc=ProcessRecord{3dbb140c 1429:com.meizu.experiencedatasync/1000}
+    launchingApp=ProcessRecord{3dbb140c 1429:com.meizu.experiencedatasync/1000}
+    authority=com.meizu.usagestats
+    6 connections, 0 external handles
+      -> 933:com.android.systemui/u0a84 s1/1 u0/0 +5d4h12m2s562ms
+      -> 1590:com.meizu.flyme.launcher/u0a83 s1/1 u0/0 +5d4h11m59s957ms
+      -> 1567:com.android.phone/1001 s1/1 u0/0 +5d4h11m58s748ms
+      -> 717:system/1000 s1/1 u0/0 +5d4h11m52s490ms
+      -> 14427:com.meizu.filemanager/u0a37 s1/1 u0/0 +3m56s856ms
+      -> 14401:com.android.settings/1000 s1/1 u0/0 +39s636ms
+  * ContentProviderRecord{2325d4d4 u0 com.android.providers.media/.MediaDocumentsProvider}
+    proc=ProcessRecord{1520e0ce 14066:android.process.media/u0a7}
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{2dec667d u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    proc=ProcessRecord{a348412 14401:com.android.settings/1000}
+    authority=com.android.settings
+  * ContentProviderRecord{168fe972 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    proc=ProcessRecord{2ccf6e5b 14348:android.process.acore/u0a4}
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{349351c3 u0 com.meizu.media.gallery/.cloud.db.CloudProvider}
+    proc=ProcessRecord{3ef46c20 7086:com.meizu.media.gallery/u0a11}
+    authority=com.meizu.media.gallery.cloud.db.cloudtrans
+  * ContentProviderRecord{5756a40 u0 com.meizu.filemanager/com.meizu.flyme.filemanager.remark.RemarkProvider}
+    proc=ProcessRecord{340e0c47 14427:com.meizu.filemanager/u0a37}
+    authority=com.meizu.flyme.filemanager.folder
+  * ContentProviderRecord{6dded79 u0 com.meizu.media.music/.data.MusicDrawableProvider}
+    proc=ProcessRecord{908182b 11776:com.meizu.media.music/u0a14}
+    authority=com.meizu.media.music.drawable.provider
+  * ContentProviderRecord{2f6f2abe u0 com.meizu.safe/.blockService.provider.WhiteListProvider}
+    proc=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    authority=whiteList
+  * ContentProviderRecord{1e4f471f u0 com.meizu.safe/com.meizu.networkmanager.db.TrafficDBProvider}
+    proc=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    authority=MzTraffic
+  * ContentProviderRecord{3066ea6c u0 com.meizu.net.search/.db.ApplicationContentProvider}
+    proc=ProcessRecord{dc340ca 19850:com.meizu.net.search/u0a66}
+    authority=com.meizu.net.search.provider.application
+  * ContentProviderRecord{32c6e835 u0 com.meizu.media.gallery/.cloud.db.CloudMediaProvider}
+    proc=ProcessRecord{3ef46c20 7086:com.meizu.media.gallery/u0a11}
+    authority=com.meizu.media.gallery.providers.cloud
+  * ContentProviderRecord{76f34ca u0 com.android.providers.telephony/.QuickReplyProvider}
+    proc=ProcessRecord{56fad9e 1567:com.android.phone/1001}
+    authority=smsquickreply
+  * ContentProviderRecord{2aab363b u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    proc=ProcessRecord{2ccf6e5b 14348:android.process.acore/u0a4}
+    authority=user_dictionary
+  * ContentProviderRecord{20e4158 u0 com.facishare.fs/com.igexin.download.DownloadProvider}
+    proc=ProcessRecord{2c315a57 3397:com.facishare.fs:pushservice/u0a112}
+    authority=downloads.com.facishare.fs
+  * ContentProviderRecord{1a0ad2b1 u0 com.meizu.media.gallery/.content.GalleryPhotoProvider}
+    proc=ProcessRecord{3ef46c20 7086:com.meizu.media.gallery/u0a11}
+    authority=com.meizu.media.gallery.provider
+
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{8b3d396 u0 com.android.bluetooth/.hid.HidService}
+    app=null
+    created=-5d4h12m2s815ms started=false connections=2
+    Connections:
+      act=android.bluetooth.IBluetoothInputDevice -> 933:com.android.systemui/u0a84
+      act=android.bluetooth.IBluetoothInputDevice -> 933:com.android.systemui/u0a84
+  * ServiceRecord{2f2af510 u0 com.mediatek.bluetooth/.AdvancedService}
+    app=ProcessRecord{19c1d9f3 1454:com.mediatek.bluetooth/1002}
+    created=-5d4h12m1s790ms started=true connections=0
+  * ServiceRecord{eb02f13 u0 com.sohu.inputmethod.sogou/.SogouIME}
+    app=ProcessRecord{14bea7b3 1312:com.sohu.inputmethod.sogou/u0a76}
+    created=-5d4h12m2s937ms started=false connections=1
+    Connections:
+      act=android.view.InputMethod -> 717:system/1000
+  * ServiceRecord{3b0cfb17 u0 com.meizu.media.life/com.meizu.cloud.pushsdk.NotificationService}
+    app=null
+    created=-3d2h25m23s458ms started=false connections=0
+  * ServiceRecord{35bd4d09 u0 com.meizu.safe/com.meizu.networkmanager.v2.TrafficCoreService}
+    app=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    created=-5d4h11m54s829ms started=true connections=0
+  * ServiceRecord{1d5fa963 u0 com.meizu.luckymoney/.LuckyMoneyService}
+    app=ProcessRecord{23d21b04 3580:com.meizu.luckymoney/u0a84}
+    created=-5d4h11m47s156ms started=true connections=0
+  * ServiceRecord{3a65da89 u0 com.android.systemui/.keyguard.KeyguardService}
+    app=ProcessRecord{2ec63ee3 933:com.android.systemui/u0a84}
+    created=-5d4h12m0s695ms started=false connections=1
+    Connections:
+       -> 717:system/1000
+  * ServiceRecord{108a192f u0 com.meizu.safe/.SafeSecureService}
+    app=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    created=-5d4h11m54s705ms started=true connections=0
+  * ServiceRecord{23b33ef8 u0 com.meizu.mzsyncservice/com.meizu.backup.desktop.download.AppDownloadService}
+    app=ProcessRecord{8f61355 1544:com.meizu.mzsyncservice/u0a56}
+    created=-5d4h12m1s826ms started=false connections=1
+    Connections:
+       -> 1544:com.meizu.mzsyncservice/u0a56
+  * ServiceRecord{936b4dd u0 com.android.systemui/.ImageWallpaper}
+    app=ProcessRecord{2ec63ee3 933:com.android.systemui/u0a84}
+    created=-5d4h12m2s954ms started=false connections=1
+    Connections:
+      act=android.service.wallpaper.WallpaperService -> 717:system/1000
+  * ServiceRecord{5922f11 u0 com.meizu.cloud/.service.MzCloudService}
+    app=ProcessRecord{211a8165 1523:com.meizu.cloud/u0a49}
+    created=-5d4h11m55s644ms started=true connections=0
+  * ServiceRecord{2e423725 u0 com.tencent.mm/.booter.NotifyReceiver$NotifyService}
+    app=ProcessRecord{3819a067 3763:com.tencent.mm/u0a97}
+    created=-5d4h11m34s569ms started=true connections=0
+  * ServiceRecord{1c4fcff1 u0 com.facishare.fs/com.igexin.sdk.PushService}
+    app=ProcessRecord{2c315a57 3397:com.facishare.fs:pushservice/u0a112}
+    created=-33m19s991ms started=true connections=0
+  * ServiceRecord{1f353272 u0 com.meizu.safe/com.meizu.power.PowerService}
+    app=ProcessRecord{3835e634 21568:com.meizu.safe:Remote/1000}
+    created=-5d4h11m54s634ms started=true connections=0
+  * ServiceRecord{be31edf u0 org.simalliance.openmobileapi.service/.SmartcardService}
+    app=ProcessRecord{2dc8e8ed 21736:org.simalliance.openmobileapi.service:remote/1000}
+    created=-5d4h11m48s887ms started=true connections=0
+  * ServiceRecord{36b258f7 u0 com.facishare.fs/com.fxiaoke.host.service.FloatWindowService}
+    app=ProcessRecord{30afe28 4633:com.facishare.fs/u0a112}
+    created=-30m1s616ms started=true connections=0
+  * ServiceRecord{28474eb1 u0 com.meizu.net.search/com.amap.api.location.APSService}
+    app=ProcessRecord{dc340ca 19850:com.meizu.net.search/u0a66}
+    created=-3d19h50m5s858ms started=false connections=2
+    Connections:
+       -> 19850:com.meizu.net.search/u0a66
+       -> 19850:com.meizu.net.search/u0a66
+  * ServiceRecord{3dd080b u0 com.meizu.media.music/com.meizu.media.common.service.DlnaService}
+    app=ProcessRecord{908182b 11776:com.meizu.media.music/u0a14}
+    created=-3d4h12m0s698ms started=false connections=2
+    Connections:
+       -> 11776:com.meizu.media.music/u0a14
+       -> 11776:com.meizu.media.music/u0a14
+  * ServiceRecord{34dc1a7f u0 com.meizu.media.gallery/com.meizu.media.common.service.DlnaService}
+    app=ProcessRecord{3ef46c20 7086:com.meizu.media.gallery/u0a11}
+    created=-3d23h30m49s467ms started=false connections=2
+    Connections:
+       -> 7086:com.meizu.media.gallery/u0a11
+       -> 7124:com.meizu.media.gallery:backup/u0a11
+  * ServiceRecord{3bec97c2 u0 com.meizu.net.search/.service.SearchInService}
+    app=ProcessRecord{dc340ca 19850:com.meizu.net.search/u0a66}
+    created=-3d19h50m5s991ms started=false connections=9
+    Connections:
+       -> 1590:com.meizu.flyme.launcher/u0a83
+       -> 1590:com.meizu.flyme.launcher/u0a83
+       -> 1590:com.meizu.flyme.launcher/u0a83
+       -> 1590:com.meizu.flyme.launcher/u0a83
+       -> 1590:com.meizu.flyme.launcher/u0a83
+       -> 1590:com.meizu.flyme.launcher/u0a83
+       -> 1590:com.meizu.flyme.launcher/u0a83
+       -> 1590:com.meizu.flyme.launcher/u0a83
+       -> 1590:com.meizu.flyme.launcher/u0a83
+  * ServiceRecord{1066345d u0 com.meizu.flyme.service.find/.PhoneLocationService}
+    app=ProcessRecord{e1e7be0 21644:com.meizu.flyme.service.find/u0a52}
+    created=-5d4h11m54s234ms started=true connections=0
+  * ServiceRecord{37b0e2b7 u0 com.meizu.cloud/.pushsdk.pushservice.MzPushService}
+    app=ProcessRecord{159c2392 2137:com.meizu.cloud:mzservice_v1/u0a49}
+    created=-5d4h11m56s877ms started=true connections=1
+    Connections:
+      act=com.meizu.cloud.pushservice.action.PUSH_SERVICE pkg=com.meizu.cloud -> 1523:com.meizu.cloud/u0a49
+  * ServiceRecord{74ead96 u0 com.tencent.mm/.booter.CoreService}
+    app=ProcessRecord{3d945e59 3977:com.tencent.mm:push/u0a97}
+    created=-5d4h11m2s537ms started=true connections=1
+    Connections:
+       -> 3763:com.tencent.mm/u0a97
+  * ServiceRecord{9d19322 u0 com.android.bluetooth/.a2dp.A2dpService}
+    app=null
+    created=-5d4h12m2s962ms started=false connections=3
+    Connections:
+      act=android.bluetooth.IBluetoothA2dp -> 933:com.android.systemui/u0a84
+      act=android.bluetooth.IBluetoothA2dp -> 717:system/1000
+      act=android.bluetooth.IBluetoothA2dp -> 933:com.android.systemui/u0a84
+  * ServiceRecord{1293b5d u0 com.meizu.media.music/.player.PlaybackService}
+    app=ProcessRecord{908182b 11776:com.meizu.media.music/u0a14}
+    created=-3d4h12m1s42ms started=true connections=1
+    Connections:
+       -> 11776:com.meizu.media.music/u0a14
+  * ServiceRecord{a3a28c0 u0 com.baidu.map.location/com.baidu.location.f}
+    app=ProcessRecord{9dbbafd 1355:com.baidu.map.location/u0a18}
+    created=-5d4h12m2s604ms started=false connections=2
+    Connections:
+       -> 1355:com.baidu.map.location/u0a18
+       -> 1355:com.baidu.map.location/u0a18
+  * ServiceRecord{2cfc285b u0 com.android.systemui/.SystemUIService}
+    app=ProcessRecord{2ec63ee3 933:com.android.systemui/u0a84}
+    created=-5d4h12m4s546ms started=true connections=0
+  * ServiceRecord{3ae9f7fc u0 android/.hardware.location.GeofenceHardwareService}
+    app=ProcessRecord{37cba3d5 717:system/1000}
+    created=-5d4h12m2s757ms started=false connections=1
+    Connections:
+       -> 717:system/1000
+  * ServiceRecord{34aeb532 u0 com.baidu.map.location/.BaiduNetworkLocationService}
+    app=ProcessRecord{9dbbafd 1355:com.baidu.map.location/u0a18}
+    created=-5d4h12m2s804ms started=false connections=2
+    Connections:
+      act=com.android.location.service.v3.NetworkLocationProvider pkg=com.baidu.map.location -> 717:system/1000
+      act=com.android.location.service.GeocodeProvider pkg=com.baidu.map.location -> 717:system/1000
+  * ServiceRecord{266c46d u0 com.meizu.media.gallery/.cloud.CloudService}
+    app=ProcessRecord{3ef46c20 7086:com.meizu.media.gallery/u0a11}
+    created=-3d14h39m6s22ms started=true connections=0
+  * ServiceRecord{bbeb62 u0 com.facishare.fs/com.igexin.sdk.PushServiceUser}
+    app=ProcessRecord{30afe28 4633:com.facishare.fs/u0a112}
+    created=-33m19s917ms started=false connections=1
+    Connections:
+       -> 3397:com.facishare.fs:pushservice/u0a112
+       -> 3397:com.facishare.fs:pushservice/u0a112
+       -> 3397:com.facishare.fs:pushservice/u0a112
+  * ServiceRecord{18c61de7 u0 com.android.server.telecom/.BluetoothPhoneService}
+    app=ProcessRecord{37cba3d5 717:system/1000}
+    created=-5d4h12m1s692ms started=true connections=0
+  * ServiceRecord{141172cc u0 com.meizu.safe/com.meizu.networkmanager.service.ResetAlarmService}
+    app=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    created=-5d4h11m49s795ms started=true connections=0
+  * ServiceRecord{39ab71c9 u0 com.android.providers.media/.MtpService}
+    app=ProcessRecord{1520e0ce 14066:android.process.media/u0a7}
+    created=-6m8s156ms started=true connections=1
+    Connections:
+       -> 14066:android.process.media/u0a7
+  * ServiceRecord{6ee3b4e u0 com.meizu.mzsyncservice/com.meizu.sync.SyncmlService}
+    app=ProcessRecord{8f61355 1544:com.meizu.mzsyncservice/u0a56}
+    created=-5d4h11m52s539ms started=true connections=0
+  * ServiceRecord{87bd246 u0 com.meizu.media.music/.util.download.MusicDownloadService}
+    app=ProcessRecord{908182b 11776:com.meizu.media.music/u0a14}
+    created=-3d4h12m1s61ms started=false connections=1
+    Connections:
+       -> 11776:com.meizu.media.music/u0a14
+  * ServiceRecord{594773e u0 android/com.android.internal.backup.LocalTransportService}
+    app=ProcessRecord{37cba3d5 717:system/1000}
+    created=-5d4h12m4s822ms started=false connections=1
+    Connections:
+      act=android.backup.TRANSPORT_HOST -> 717:system/1000
+  * ServiceRecord{2739333 u0 com.meizu.media.gallery/.cloud.BackupManager}
+    app=ProcessRecord{f042a4c 7124:com.meizu.media.gallery:backup/u0a11}
+    created=-3d23h30m49s790ms started=true connections=0
+  * ServiceRecord{222cda4b u0 com.sohu.inputmethod.sogou/sogou.mobile.explorer.hotwords.clipboardpopup.HotwordsClipboardService}
+    app=ProcessRecord{18fadddc 21612:sogou.mobile.explorer.hotwords/u0a76}
+    created=-5d4h11m59s381ms started=true connections=0
+  * ServiceRecord{1fed0776 u0 com.meizu.experiencedatasync/.service.ReceiveErrorLogService}
+    app=ProcessRecord{3dbb140c 1429:com.meizu.experiencedatasync/1000}
+    created=-5d4h12m2s122ms started=true connections=0
+  * ServiceRecord{2e674870 u0 com.android.location.fused/.FusedLocationService}
+    app=ProcessRecord{37cba3d5 717:system/1000}
+    created=-5d4h12m2s765ms started=false connections=1
+    Connections:
+      act=com.android.location.service.FusedLocationProvider pkg=com.android.location.fused -> 717:system/1000
+  * ServiceRecord{31fbc113 u0 com.facishare.fs/com.fxiaoke.stat_engine.service.StatMonitorService}
+    app=ProcessRecord{375c31b3 3335:com.facishare.fs:monitor_statengine/u0a112}
+    created=-33m35s454ms started=true connections=0
+  * ServiceRecord{cd7e370 u0 com.android.bluetooth/.map.BluetoothMapService}
+    app=null
+    created=-5d4h12m2s813ms started=false connections=1
+    Connections:
+      act=android.bluetooth.IBluetoothMap -> 933:com.android.systemui/u0a84
+  * ServiceRecord{1c0850ce u0 com.mediatek.nlpservice/.NlpService}
+    app=ProcessRecord{17d826e9 1500:com.mediatek.nlpservice/u0a58}
+    created=-5d4h11m49s335ms started=true connections=0
+  * ServiceRecord{2becc099 u0 com.android.defcontainer/.DefaultContainerService}
+    app=ProcessRecord{2bb2f090 14308:com.android.defcontainer/u0a6}
+    created=-29s226ms started=false connections=1
+    Connections:
+       -> 14401:com.android.settings/1000
+  * ServiceRecord{34575094 u0 com.android.phone/.TelephonyDebugService}
+    app=ProcessRecord{56fad9e 1567:com.android.phone/1001}
+    created=-5d4h12m1s92ms started=true connections=0
+  * ServiceRecord{7de3899 u0 com.android.server.telecom/.TelecomService}
+    app=ProcessRecord{37cba3d5 717:system/1000}
+    created=-5d4h12m4s625ms started=false connections=1
+    Connections:
+      act=com.android.ITelecomService -> 717:system/1000
+  * ServiceRecord{2d08bb0e u0 com.meizu.safe/.blockService.GuardService}
+    app=ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    created=-5d4h11m54s826ms started=true connections=0
+  * ServiceRecord{144e230a u0 com.tencent.mobileqq/.msf.service.MsfService}
+    app=ProcessRecord{353bb52f 1059:com.tencent.mobileqq:MSF/u0a10}
+    created=-37m0s510ms started=true connections=1
+    Connections:
+       -> 1022:com.tencent.mobileqq/u0a10
+       -> 1022:com.tencent.mobileqq/u0a10
+       -> 1022:com.tencent.mobileqq/u0a10
+  * ServiceRecord{419bf6e u0 com.android.bluetooth/.pan.PanService}
+    app=null
+    created=-5d4h12m5s318ms started=false connections=3
+    Connections:
+      act=android.bluetooth.IBluetoothPan -> 933:com.android.systemui/u0a84
+      act=android.bluetooth.IBluetoothPan -> 717:system/1000
+      act=android.bluetooth.IBluetoothPan -> 933:com.android.systemui/u0a84
+
+ACTIVITY MANAGER RECENT TASKS (dumpsys activity recents)
+  Recent tasks:
+  * Recent #0: TaskRecord{1c51f983 #357 A=com.meizu.safe U=0 sz=1}
+  * Recent #1: TaskRecord{145e360f #356 A=com.android.settings U=0 sz=3}
+  * Recent #2: TaskRecord{3f2fc69c #1 A=com.meizu.flyme.launcher U=0 sz=1}
+  * Recent #3: TaskRecord{2e8348a5 #355 A=com.android.grabqqpwd U=0 sz=0}
+  * Recent #4: TaskRecord{22a6647a #347 A=com.android.systemui U=0 sz=0}
+  * Recent #5: TaskRecord{36f36a7a #334 A=com.tencent.mobileqq U=0 sz=1}
+  * Recent #6: TaskRecord{23d2242b #341 A=com.facishare.fs U=0 sz=1}
+  * Recent #7: TaskRecord{2804ca21 #202 A=com.meizu.net.search U=0 sz=0}
+
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom)(size:2):
+  Stack #1:
+    Task id #357
+      TaskRecord{1c51f983 #357 A=com.meizu.safe U=0 sz=1}
+      Intent { act=com.meizu.safe.security.SHOW_APPSEC flg=0x10000000 cmp=com.meizu.safe/.security.AppSecActivity (has extras) }
+        Hist #0: ActivityRecord{28f44d34 u0 com.meizu.safe/.security.AppSecActivity t357}
+          Intent { act=com.meizu.safe.security.SHOW_APPSEC flg=0x10000000 cmp=com.meizu.safe/.security.AppSecActivity (has extras) }
+          ProcessRecord{2a2986b3 2313:com.meizu.safe/1000}
+    Task id #356
+      TaskRecord{145e360f #356 A=com.android.settings U=0 sz=3}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings }
+        Hist #2: ActivityRecord{2e07158d u0 com.android.settings/.SubSettings t356}
+          Intent { act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras) }
+          ProcessRecord{a348412 14401:com.android.settings/1000}
+        Hist #1: ActivityRecord{35349586 u0 com.android.settings/.SubSettings t356}
+          Intent { act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras) }
+          ProcessRecord{a348412 14401:com.android.settings/1000}
+        Hist #0: ActivityRecord{33863384 u0 com.android.settings/.Settings t356}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings bnds=[450,1599][702,1893] }
+          ProcessRecord{a348412 14401:com.android.settings/1000}
+    Task id #334
+      TaskRecord{36f36a7a #334 A=com.tencent.mobileqq U=0 sz=1}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity }
+        Hist #0: ActivityRecord{3cc7effc u0 com.tencent.mobileqq/.activity.SplashActivity t334}
+          Intent { flg=0x4040000 cmp=com.tencent.mobileqq/.activity.SplashActivity (has extras) }
+          ProcessRecord{de9a45f 1022:com.tencent.mobileqq/u0a10}
+    Task id #341
+      TaskRecord{23d2242b #341 A=com.facishare.fs U=0 sz=1}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity }
+        Hist #0: ActivityRecord{3498c578 u0 com.facishare.fs/.STSDynamicActivity_1 t341}
+          Intent { flg=0x10000000 cmp=com.facishare.fs/.STSDynamicActivity_1 (has extras) }
+          ProcessRecord{30afe28 4633:com.facishare.fs/u0a112}
+
+    Empty Task id #40
+          from Stack#1
+          userId=0 effectiveUid=u0a99 mCallingUid=u0a99 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/40_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463629207703 lastActiveTime=1463629207703 (inactive for 367406s)
+
+    Empty Task id #44
+          from Stack#1
+          userId=0 effectiveUid=u0a29 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.meizu.flyme.calculator
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.meizu.flyme.calculator/.Calculator}
+          realActivity=com.meizu.flyme.calculator/.Calculator
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/44_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463634654383 lastActiveTime=1463634654383 (inactive for 361960s)
+
+    Empty Task id #53
+          from Stack#1
+          userId=0 effectiveUid=u0a100 mCallingUid=u0a100 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/53_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463637897957 lastActiveTime=1463637897957 (inactive for 358716s)
+
+    Empty Task id #71
+          from Stack#1
+          userId=0 effectiveUid=u0a10 mCallingUid=u0a10 mCallingPackage=com.tencent.mobileqq
+          affinity=com.tencent.mobileqq
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity}
+          realActivity=com.tencent.mobileqq/.activity.SplashActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/71_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463644663026 lastActiveTime=1463644663026 (inactive for 351951s)
+
+    Empty Task id #72
+          from Stack#1
+          userId=0 effectiveUid=u0a37 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.meizu.filemanager
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.meizu.filemanager/com.meizu.flyme.filemanager.activity.HomeActivity}
+          realActivity=com.meizu.filemanager/com.meizu.flyme.filemanager.activity.HomeActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/72_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463644758370 lastActiveTime=1463644758370 (inactive for 351856s)
+
+    Empty Task id #103
+          from Stack#1
+          userId=0 effectiveUid=u0a29 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.meizu.flyme.calculator
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.meizu.flyme.calculator/.Calculator}
+          realActivity=com.meizu.flyme.calculator/.Calculator
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/103_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463710252617 lastActiveTime=1463710252617 (inactive for 286361s)
+
+    Empty Task id #109
+          from Stack#1
+          userId=0 effectiveUid=u0a59 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.meizu.notepaper
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.meizu.notepaper/com.meizu.flyme.notepaper.app.NotePaperActivity}
+          realActivity=com.meizu.notepaper/com.meizu.flyme.notepaper.app.NotePaperActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/109_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463711080796 lastActiveTime=1463711080796 (inactive for 285533s)
+
+    Empty Task id #113
+          from Stack#1
+          userId=0 effectiveUid=u0a106 mCallingUid=u0a106 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/113_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463715179813 lastActiveTime=1463715179813 (inactive for 281434s)
+
+    Empty Task id #125
+          from Stack#1
+          userId=0 effectiveUid=u0a106 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.squareup.leakcanary
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.squareup.leakcanary.internal.DisplayLeakActivity}
+          realActivity=com.facishare.fs/com.squareup.leakcanary.internal.DisplayLeakActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/125_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463720102354 lastActiveTime=1463720102354 (inactive for 276512s)
+
+    Empty Task id #145
+          from Stack#1
+          userId=0 effectiveUid=u0a97 mCallingUid=u0a97 mCallingPackage=com.tencent.mm
+          affinity=com.tencent.mm
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI}
+          realActivity=com.tencent.mm/.ui.LauncherUI
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/145_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463724217793 lastActiveTime=1463724217793 (inactive for 272396s)
+
+    Empty Task id #152
+          from Stack#1
+          userId=0 effectiveUid=u0a17 mCallingUid=u0a17 mCallingPackage=android.zhibo8
+          affinity=android.zhibo8
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=android.zhibo8/.ui.contollers.main.LaunchActivity}
+          realActivity=android.zhibo8/.ui.contollers.main.LaunchActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/152_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463725329229 lastActiveTime=1463725329229 (inactive for 271285s)
+
+    Empty Task id #163
+          from Stack#1
+          userId=0 effectiveUid=u0a106 mCallingUid=u0a106 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/163_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463727733911 lastActiveTime=1463727733911 (inactive for 268880s)
+
+    Empty Task id #198
+          from Stack#1
+          userId=0 effectiveUid=u0a108 mCallingUid=u0a108 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/198_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463741161820 lastActiveTime=1463741161820 (inactive for 255452s)
+
+    Empty Task id #203
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/203_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463742904418 lastActiveTime=1463742904418 (inactive for 253710s)
+
+    Empty Task id #210
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/210_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463916278645 lastActiveTime=1463916278645 (inactive for 80335s)
+
+    Empty Task id #271
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/271_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463974229508 lastActiveTime=1463974229508 (inactive for 22385s)
+
+    Empty Task id #298
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.squareup.leakcanary
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.squareup.leakcanary.internal.DisplayLeakActivity}
+          realActivity=com.facishare.fs/com.squareup.leakcanary.internal.DisplayLeakActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/298_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463987431984 lastActiveTime=1463987431984 (inactive for 9182s)
+
+    Empty Task id #299
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/299_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463987482063 lastActiveTime=1463987482063 (inactive for 9132s)
+
+    Empty Task id #301
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/301_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463987655288 lastActiveTime=1463987655288 (inactive for 8959s)
+
+    Empty Task id #304
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/304_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463988032513 lastActiveTime=1463988032513 (inactive for 8582s)
+
+    Empty Task id #306
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/306_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463988132639 lastActiveTime=1463988132639 (inactive for 8481s)
+
+    Empty Task id #308
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/308_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463988818755 lastActiveTime=1463988818755 (inactive for 7795s)
+
+    Empty Task id #309
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/309_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463989092246 lastActiveTime=1463989092246 (inactive for 7522s)
+
+    Empty Task id #312
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/312_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463989837237 lastActiveTime=1463989837237 (inactive for 6777s)
+
+    Empty Task id #313
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/313_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463990191919 lastActiveTime=1463990191919 (inactive for 6422s)
+
+    Empty Task id #314
+          from Stack#1
+          userId=0 effectiveUid=u0a109 mCallingUid=u0a109 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/314_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463990352063 lastActiveTime=1463990352063 (inactive for 6262s)
+
+    Empty Task id #322
+          from Stack#1
+          userId=0 effectiveUid=u0a110 mCallingUid=u0a110 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/322_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463991747821 lastActiveTime=1463991747821 (inactive for 4866s)
+
+    Empty Task id #323
+          from Stack#1
+          userId=0 effectiveUid=u0a110 mCallingUid=u0a110 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/323_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463991784807 lastActiveTime=1463991784807 (inactive for 4829s)
+
+    Empty Task id #326
+          from Stack#1
+          userId=0 effectiveUid=u0a110 mCallingUid=u0a110 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/326_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463992008886 lastActiveTime=1463992008886 (inactive for 4605s)
+
+    Empty Task id #329
+          from Stack#1
+          userId=0 effectiveUid=u0a111 mCallingUid=u0a111 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/329_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463992726524 lastActiveTime=1463992726524 (inactive for 3888s)
+
+    Empty Task id #336
+          from Stack#1
+          userId=0 effectiveUid=1000 mCallingUid=u0a10 mCallingPackage=com.tencent.mobileqq
+          affinity=com.meizu.safe
+          intent={act=com.meizu.safe.security.SHOW_APPSEC flg=0x10000000 cmp=com.meizu.safe/.security.AppSecActivity}
+          realActivity=com.meizu.safe/.security.AppSecActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/336_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463994446802 lastActiveTime=1463994446802 (inactive for 2167s)
+
+    Empty Task id #333
+          from Stack#1
+          userId=0 effectiveUid=u0a111 mCallingUid=u0a111 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/333_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463994492764 lastActiveTime=1463994492764 (inactive for 2121s)
+
+    Empty Task id #337
+          from Stack#1
+          userId=0 effectiveUid=u0a112 mCallingUid=u0a112 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={flg=0x10000000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/337_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463994558993 lastActiveTime=1463994558993 (inactive for 2055s)
+
+    Empty Task id #339
+          from Stack#1
+          userId=0 effectiveUid=u0a112 mCallingUid=u0a112 mCallingPackage=com.facishare.fs
+          affinity=com.facishare.fs
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facishare.fs/com.fxiaoke.host.IndexActivity}
+          realActivity=com.facishare.fs/com.fxiaoke.host.IndexActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/339_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463994734231 lastActiveTime=1463994734231 (inactive for 1880s)
+
+    Empty Task id #343
+          from Stack#1
+          userId=0 effectiveUid=u0a113 mCallingUid=2000 mCallingPackage=null
+          affinity=com.android.grabqqpwd
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.grabqqpwd/.MainActivity}
+          realActivity=com.android.grabqqpwd/.MainActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/343_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463994926220 lastActiveTime=1463994926220 (inactive for 1688s)
+
+    Empty Task id #344
+          from Stack#1
+          userId=0 effectiveUid=u0a113 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.android.grabqqpwd
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.grabqqpwd/.MainActivity}
+          realActivity=com.android.grabqqpwd/.MainActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/344_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463994949445 lastActiveTime=1463994949445 (inactive for 1665s)
+
+    Empty Task id #345
+          from Stack#1
+          userId=0 effectiveUid=u0a113 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.android.grabqqpwd
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.grabqqpwd/.MainActivity}
+          realActivity=com.android.grabqqpwd/.MainActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/345_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463994972893 lastActiveTime=1463994972893 (inactive for 1641s)
+
+    Empty Task id #348
+          from Stack#1
+          userId=0 effectiveUid=1000 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.android.settings
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings}
+          origActivity=com.android.settings/.Settings
+          realActivity=com.android.settings/.Settings
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/348_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463995086893 lastActiveTime=1463995086893 (inactive for 1527s)
+
+    Empty Task id #349
+          from Stack#1
+          userId=0 effectiveUid=1000 mCallingUid=u0a83 mCallingPackage=com.meizu.flyme.launcher
+          affinity=com.android.settings
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings}
+          origActivity=com.android.settings/.Settings
+          realActivity=com.android.settings/.Settings
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=false isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/349_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463995096373 lastActiveTime=1463995096373 (inactive for 1518s)
+
+    Empty Task id #355
+          from Stack#1
+          userId=0 effectiveUid=u0a113 mCallingUid=2000 mCallingPackage=null
+          affinity=com.android.grabqqpwd
+          intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.grabqqpwd/.MainActivity}
+          realActivity=com.android.grabqqpwd/.MainActivity
+          autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+          rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+          Activities=[]
+          askedCompatMode=false inRecents=true isAvailable=true
+          lastThumbnail=null lastThumbnailFile=/data/system/recent_images/355_task_thumbnail.png
+          hasBeenVisible=true firstActiveTime=1463996377609 lastActiveTime=1463996377609 (inactive for 236s)
+
+    Running activities (most recent first):
+      TaskRecord{1c51f983 #357 A=com.meizu.safe U=0 sz=1}
+        Run #5: ActivityRecord{28f44d34 u0 com.meizu.safe/.security.AppSecActivity t357}
+      TaskRecord{145e360f #356 A=com.android.settings U=0 sz=3}
+        Run #4: ActivityRecord{2e07158d u0 com.android.settings/.SubSettings t356}
+        Run #3: ActivityRecord{35349586 u0 com.android.settings/.SubSettings t356}
+        Run #2: ActivityRecord{33863384 u0 com.android.settings/.Settings t356}
+      TaskRecord{36f36a7a #334 A=com.tencent.mobileqq U=0 sz=1}
+        Run #1: ActivityRecord{3cc7effc u0 com.tencent.mobileqq/.activity.SplashActivity t334}
+      TaskRecord{23d2242b #341 A=com.facishare.fs U=0 sz=1}
+        Run #0: ActivityRecord{3498c578 u0 com.facishare.fs/.STSDynamicActivity_1 t341}
+
+    mResumedActivity: ActivityRecord{28f44d34 u0 com.meizu.safe/.security.AppSecActivity t357}
+
+  Stack #0:
+    Task id #1
+      TaskRecord{3f2fc69c #1 A=com.meizu.flyme.launcher U=0 sz=1}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.meizu.flyme.launcher/.Launcher }
+        Hist #0: ActivityRecord{e743887 u0 com.meizu.flyme.launcher/.Launcher t1}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.meizu.flyme.launcher/.Launcher }
+          ProcessRecord{27ee9d4d 1590:com.meizu.flyme.launcher/u0a83}
+
+    Running activities (most recent first):
+      TaskRecord{3f2fc69c #1 A=com.meizu.flyme.launcher U=0 sz=1}
+        Run #0: ActivityRecord{e743887 u0 com.meizu.flyme.launcher/.Launcher t1}
+
+  mFocusedActivity: ActivityRecord{28f44d34 u0 com.meizu.safe/.security.AppSecActivity t357}
+  mFocusedStack=ActivityStack{36264e46 stackId=1, 44 tasks} mLastFocusedStack=ActivityStack{36264e46 stackId=1, 44 tasks}
+  mSleepTimeout=false
+  mCurTaskId=357
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A, 1=ActivtyContainer{1}A}
+
+ACTIVITY MANAGER RUNNING PROCESSES (dumpsys activity processes)
+  Isolated process list (sorted by uid):
+    Isolated # 0: ProcessRecord{a4cd807 912:WebViewLoader-armeabi-v7a/1037}
+
+  Process LRU list (sorted by oom_adj, 39 total, non-act at 9, non-svc at 9):
+    PERS #38: sys   F/ /P  trm: 5 717:system/1000 (fixed)
+    PERS #37: pers  F/ /P  trm: 5 933:com.android.systemui/u0a84 (fixed)
+    PERS #36: pers  F/ /P  trm: 5 1429:com.meizu.experiencedatasync/1000 (fixed)
+    PERS #35: pers  F/ /P  trm: 5 1454:com.mediatek.bluetooth/1002 (fixed)
+    PERS #34: pers  F/ /P  trm: 5 1475:com.android.incallui/u0a4 (fixed)
+    PERS #33: pers  F/ /P  trm: 5 1500:com.mediatek.nlpservice/u0a58 (fixed)
+    PERS #32: pers  F/ /P  trm: 5 1523:com.meizu.cloud/u0a49 (fixed)
+    PERS #31: pers  F/ /P  trm: 5 1544:com.meizu.mzsyncservice/u0a56 (fixed)
+    PERS #30: pers  F/ /P  trm: 5 1567:com.android.phone/1001 (fixed)
+    Proc # 0: fore  F/A/T  trm: 5 2313:com.meizu.safe/1000 (top-activity)
+    Proc #29: vis   B/ /IB trm: 5 1355:com.baidu.map.location/u0a18 (service)
+        com.baidu.map.location/.BaiduNetworkLocationService<=Proc{717:system/1000}
+    Proc #28: vis   F/ /IF trm: 5 2137:com.meizu.cloud:mzservice_v1/u0a49 (service)
+        com.meizu.cloud/.pushsdk.pushservice.MzPushService<=Proc{1523:com.meizu.cloud/u0a49}
+    Proc #22: prcp  F/S/IF trm: 5 3580:com.meizu.luckymoney/u0a84 (fg-service)
+    Proc #18: prcp  F/S/IF trm: 5 3977:com.tencent.mm:push/u0a97 (fg-service)
+    Proc # 7: prcp  B/ /IB trm: 5 1312:com.sohu.inputmethod.sogou/u0a76 (service)
+        com.sohu.inputmethod.sogou/.SogouIME<=Proc{717:system/1000}
+    Proc # 5: prcp  F/S/IF trm: 5 4633:com.facishare.fs/u0a112 (fg-service)
+    Proc #20: svc   B/ /S  trm: 5 3397:com.facishare.fs:pushservice/u0a112 (started-services)
+    Proc # 4: svc   B/ /S  trm: 5 1059:com.tencent.mobileqq:MSF/u0a10 (started-services)
+    Proc # 3: home  B/ /HO trm:40 1590:com.meizu.flyme.launcher/u0a83 (home)
+    Proc # 2: prev  B/ /LA trm:40 14308:com.android.defcontainer/u0a6 (service)
+        com.android.defcontainer/.DefaultContainerService<=Proc{14401:com.android.settings/1000}
+    Proc # 1: prev  B/ /LA trm:40 14401:com.android.settings/1000 (previous)
+    Proc #25: svcb  B/ /S  trm: 5 7124:com.meizu.media.gallery:backup/u0a11 (started-services)
+    Proc #19: svcb  B/ /S  trm: 5 7086:com.meizu.media.gallery/u0a11 (cch-started-services)
+        com.meizu.media.gallery/com.meizu.media.common.service.DlnaService<=Proc{7124:com.meizu.media.gallery:backup/u0a11}
+    Proc #14: svcb  B/ /S  trm: 5 14066:android.process.media/u0a7 (started-services)
+    Proc # 9: cch   B/ /S  trm: 5 21612:sogou.mobile.explorer.hotwords/u0a76 (cch-started-services)
+    Proc # 8: cch   B/ /HO trm:60 19850:com.meizu.net.search/u0a66 (cch-bound-ui-services)
+        com.meizu.net.search/.service.SearchInService<=Proc{1590:com.meizu.flyme.launcher/u0a83}
+    Proc # 6: cch   B/ /CA trm:60 1022:com.tencent.mobileqq/u0a10 (cch-act)
+    Proc #11: cch+2 B/ /CE trm:60 14348:android.process.acore/u0a4 (cch-empty)
+    Proc #10: cch+2 B/ /CE trm:60 14379:com.android.musicfx/u0a15 (cch-empty)
+    Proc #13: cch+4 B/ /CE trm:80 14427:com.meizu.filemanager/u0a37 (cch-empty)
+    Proc #12: cch+4 B/ /CE trm:80 14633:com.svox.pico/u0a63 (cch-empty)
+    Proc #27: cch+6 B/ /S  trm: 5 21568:com.meizu.safe:Remote/1000 (cch-started-services)
+    Proc #26: cch+6 B/ /S  trm: 5 21736:org.simalliance.openmobileapi.service:remote/1000 (cch-started-services)
+    Proc #24: cch+6 B/ /S  trm: 5 21644:com.meizu.flyme.service.find/u0a52 (cch-started-services)
+    Proc #23: cch+6 B/ /S  trm: 5 11776:com.meizu.media.music/u0a14 (cch-started-services)
+    Proc #21: cch+6 B/ /S  trm: 5 3335:com.facishare.fs:monitor_statengine/u0a112 (cch-started-services)
+    Proc #17: cch+6 B/ /S  trm: 5 3763:com.tencent.mm/u0a97 (cch-started-ui-services)
+    Proc #16: cch+6 B/ /CE trm:80 14468:com.android.keychain/1000 (cch-empty)
+    Proc #15: cch+6 B/ /CE trm:80 14519:com.android.packageinstaller/1000 (cch-empty)
+
+  Processes that are waiting to GC:
+    Process ProcessRecord{2c315a57 3397:com.facishare.fs:pushservice/u0a112}
+      lowMem=true, last gced=2000033 ms ago, last lowMem=358405 ms ago
+
+  mStartedUsers:
+    User #0: mState=RUNNING
+  mStartedUserArray: [0]
+  mUserLru: [0]
+  mHomeProcess: ProcessRecord{27ee9d4d 1590:com.meizu.flyme.launcher/u0a83}
+  mPreviousProcess: ProcessRecord{a348412 14401:com.android.settings/1000}
+  mConfiguration: {1.0 ?mcc?mnc zh_CN ?layoutDir sw384dp w384dp h615dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+  mWakefulness=Awake
+  mSleeping=false mLockScreenShown=LOCK_SCREEN_HIDDEN
+  mShuttingDown=false mRunningVoice=false mTestPssMode=false
+  mDebugApp=null/orig=null mDebugTransient=true mOrigWaitForDebugger=false
